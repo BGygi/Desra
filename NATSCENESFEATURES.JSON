@@ -1,0 +1,1973 @@
+[
+	{
+	"filename":"BOWLING.wav",
+	"label":"BOWLING",
+	"keywords":
+		[
+			{
+				"keyword":"BOWLING"
+			}
+		],
+	"source":"BOWLING",
+	"isolation":"1",
+	"origin":"The file was obtained from the www.quietamerican.org.  Originially recorded by Alexander Reben",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"2152308",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"  12.1902",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0001",
+				"level":"-27.062",
+				"peak":"-3.586"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-25.164",
+				"peak":"-2.440"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				"citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":" 622.580",
+	"spectral_spread":"1184.061",
+	"median_loudness":"18.449",
+	"max_loudness":"35.083",
+	"median_sharpness":" 1.462",
+	"max_sharpness":" 1.911",
+	"median_roughness":" 0.036",
+	"max_roughness":" 0.231",
+	"pitch_salience":"  0.2442",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"12.138"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"Bart station.wav",
+	"label":"Bart station",
+	"keywords":
+		[
+			{
+				"keyword":"Bart station"
+			}
+		],
+	"source":"Bart station",
+	"isolation":"1",
+	"origin":"The file was obtained from http://radiantslab.com/phonography.  Originally recorded by Stephen Sykes",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1479932",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"   8.3734",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-26.970",
+				"peak":"-10.684"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-25.330",
+				"peak":"-10.000"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				"citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":" 433.586",
+	"spectral_spread":" 628.024",
+	"median_loudness":"15.485",
+	"max_loudness":"22.285",
+	"median_sharpness":" 1.230",
+	"max_sharpness":" 1.482",
+	"median_roughness":" 0.035",
+	"max_roughness":" 0.144",
+	"pitch_salience":"  0.6507",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"8.216"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"restaurant.wav",
+	"label":"restaurant",
+	"keywords":
+		[
+			{
+				"keyword":"restaurant"
+			}
+		],
+	"source":"restaurant",
+	"isolation":"1",
+	"origin":"The file was obtained from labrosa.ee.columbia.edu",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1627024",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"   9.2149",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0001",
+				"level":"-25.584",
+				"peak":"-8.707"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0001",
+				"level":"-24.886",
+				"peak":"-5.488"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				"citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":" 925.900",
+	"spectral_spread":" 897.003",
+	"median_loudness":"21.130",
+	"max_loudness":"37.462",
+	"median_sharpness":" 1.243",
+	"max_sharpness":" 1.967",
+	"median_roughness":" 0.042",
+	"max_roughness":" 0.210",
+	"pitch_salience":"  0.3760",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"9.014"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"mammogram.wav",
+	"label":"mammogram",
+	"keywords":
+		[
+			{
+				"keyword":"mammogram"
+			}
+		],
+	"source":"mammogram",
+	"isolation":"1",
+	"origin":"The file was obtained from audiblefrequency.org",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1499132",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"   8.4337",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-25.662",
+				"peak":"-4.393"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-25.820",
+				"peak":"-4.335"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":" 759.428",
+	"spectral_spread":"1164.765",
+	"median_loudness":"16.829",
+	"max_loudness":"39.153",
+	"median_sharpness":" 1.387",
+	"max_sharpness":" 1.813",
+	"median_roughness":" 0.033",
+	"max_roughness":" 0.286",
+	"pitch_salience":"  0.5547",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"8.421"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"playground.wav",
+	"label":"playground",
+	"keywords":
+		[
+			{
+				"keyword":"playground"
+			}
+		],
+	"source":"playground",
+	"isolation":"1",
+	"origin":"The file was obtained from quietamerican.org.  Originally recorded by Ben Shewmaker.",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1656044",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"   9.3470",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-26.291",
+				"peak":"-6.132"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-25.695",
+				"peak":"-5.676"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":" 994.148",
+	"spectral_spread":"1250.081",
+	"median_loudness":"16.649",
+	"max_loudness":"31.715",
+	"median_sharpness":" 1.316",
+	"max_sharpness":" 2.003",
+	"median_roughness":" 0.048",
+	"max_roughness":" 2.300",
+	"pitch_salience":"  0.5884",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"9.340"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"key in door.wav",
+	"label":"key in door",
+	"keywords":
+		[
+			{
+				"keyword":"key in door"
+			}
+		],
+	"source":"key in door",
+	"isolation":"1",
+	"origin":"The file was obtained from www.l-m-c.org.uk.",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"2629532",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"  14.8756",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0077",
+				"level":"-27.220",
+				"peak":"-0.007"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0032",
+				"level":"-25.498",
+				"peak":"-0.015"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":"6298.294",
+	"spectral_spread":"4775.132",
+	"median_loudness":"10.972",
+	"max_loudness":"69.325",
+	"median_sharpness":" 1.516",
+	"max_sharpness":" 3.387",
+	"median_roughness":" 0.360",
+	"max_roughness":" 3.407",
+	"pitch_salience":"  0.2682",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"14.745"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"GROCERY.wav",
+	"label":"GROCERY",
+	"keywords":
+		[
+			{
+				"keyword":"GROCERY"
+			}
+		],
+	"source":"GROCERY",
+	"isolation":"1",
+	"origin":"The file was obtained from audiblefrequency.org",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"2405520",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"  13.6268",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-25.742",
+				"peak":"-9.281"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-25.917",
+				"peak":"-7.850"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":" 523.036",
+	"spectral_spread":" 777.502",
+	"median_loudness":"19.601",
+	"max_loudness":"33.183",
+	"median_sharpness":" 1.246",
+	"max_sharpness":" 1.493",
+	"median_roughness":" 0.041",
+	"max_roughness":" 0.295",
+	"pitch_salience":"  0.3308",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"13.469"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"Tennis General.wav",
+	"label":"Tennis General",
+	"keywords":
+		[
+			{
+				"keyword":"Tennis General"
+			}
+		],
+	"source":"Tennis General",
+	"isolation":"1",
+	"origin":"The origin of this file is not known",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1539116",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"   8.6938",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0006",
+				"level":"-26.073",
+				"peak":"-1.582"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0006",
+				"level":"-26.073",
+				"peak":"-1.582"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":" 636.875",
+	"spectral_spread":" 491.299",
+	"median_loudness":"18.139",
+	"max_loudness":"36.391",
+	"median_sharpness":" 1.064",
+	"max_sharpness":" 1.389",
+	"median_roughness":" 0.100",
+	"max_roughness":" 2.595",
+	"pitch_salience":"  0.2801",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"8.637"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"FOREST.wav",
+	"label":"FOREST",
+	"keywords":
+		[
+			{
+				"keyword":"FOREST"
+			}
+		],
+	"source":"FOREST",
+	"isolation":"1",
+	"origin":"The file was obtained from labrosa.ee.columbia.edu",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1587980",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"   8.9954",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0001",
+				"level":"-25.557",
+				"peak":"-5.238"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0001",
+				"level":"-24.386",
+				"peak":"-2.173"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":"3600.360",
+	"spectral_spread":"1872.918",
+	"median_loudness":"20.715",
+	"max_loudness":"34.501",
+	"median_sharpness":" 1.994",
+	"max_sharpness":" 2.278",
+	"median_roughness":" 0.026",
+	"max_roughness":" 0.134",
+	"pitch_salience":"  0.3571",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"8.941"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"PROTEST.wav",
+	"label":"PROTEST",
+	"keywords":
+		[
+			{
+				"keyword":"PROTEST"
+			}
+		],
+	"source":"PROTEST",
+	"isolation":"1",
+	"origin":"The file was obtained from quietamerican.org.  Originally recorded by Aaron Ximm",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1775148",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"  10.0462",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-24.614",
+				"peak":"-10.564"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-26.173",
+				"peak":"-10.728"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":"1002.521",
+	"spectral_spread":"1081.439",
+	"median_loudness":"16.537",
+	"max_loudness":"27.508",
+	"median_sharpness":" 1.371",
+	"max_sharpness":" 2.018",
+	"median_roughness":" 0.041",
+	"max_roughness":" 0.246",
+	"pitch_salience":"  0.5997",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"10.010"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"horse race.wav",
+	"label":"horse race",
+	"keywords":
+		[
+			{
+				"keyword":"horse race"
+			}
+		],
+	"source":"horse race",
+	"isolation":"1",
+	"origin":"The file was obtained from labrosa.ee.columbia.edu",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1674160",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"   9.4823",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-26.065",
+				"peak":"-7.312"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-25.813",
+				"peak":"-6.936"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":"1005.959",
+	"spectral_spread":" 713.177",
+	"median_loudness":"22.625",
+	"max_loudness":"30.198",
+	"median_sharpness":" 1.211",
+	"max_sharpness":" 1.674",
+	"median_roughness":" 0.089",
+	"max_roughness":" 2.032",
+	"pitch_salience":"  0.3314",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"9.380"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"video arcade.wav",
+	"label":"video arcade",
+	"keywords":
+		[
+			{
+				"keyword":"video arcade"
+			}
+		],
+	"source":"video arcade",
+	"isolation":"1",
+	"origin":"The file was obtained from Stephen Sykes",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1483932",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"   8.3543",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-26.086",
+				"peak":"-11.333"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-26.137",
+				"peak":"-11.852"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":" 680.729",
+	"spectral_spread":" 692.017",
+	"median_loudness":"16.951",
+	"max_loudness":"25.313",
+	"median_sharpness":" 1.237",
+	"max_sharpness":" 1.458",
+	"median_roughness":" 0.044",
+	"max_roughness":" 0.236",
+	"pitch_salience":"  0.3553",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"8.322"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"china beach.wav",
+	"label":"china beach",
+	"keywords":
+		[
+			{
+				"keyword":"china beach"
+			}
+		],
+	"source":"china beach",
+	"isolation":"1",
+	"origin":"The file was obtained from quietamerican.org.  Originally recorded by Aaron Ximm",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1490124",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"   8.4324",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0003",
+				"level":"-25.227",
+				"peak":"-7.386"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0003",
+				"level":"-25.998",
+				"peak":"-8.210"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":"1116.929",
+	"spectral_spread":"1108.250",
+	"median_loudness":"21.813",
+	"max_loudness":"39.894",
+	"median_sharpness":" 1.428",
+	"max_sharpness":" 1.575",
+	"median_roughness":" 0.040",
+	"max_roughness":" 0.117",
+	"pitch_salience":"  0.1793",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"8.275"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"fireworks.wav",
+	"label":"fireworks",
+	"keywords":
+		[
+			{
+				"keyword":"fireworks"
+			}
+		],
+	"source":"fireworks",
+	"isolation":"1",
+	"origin":"The file was obtained from audiblefrequency.org",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"2105476",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"  11.9184",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-26.272",
+				"peak":"-3.643"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-26.171",
+				"peak":"-3.493"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":" 440.729",
+	"spectral_spread":" 966.228",
+	"median_loudness":"13.473",
+	"max_loudness":"39.766",
+	"median_sharpness":" 1.314",
+	"max_sharpness":" 1.984",
+	"median_roughness":" 0.087",
+	"max_roughness":" 4.169",
+	"pitch_salience":"  0.1311",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"11.762"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"BARN.wav",
+	"label":"BARN",
+	"keywords":
+		[
+			{
+				"keyword":"BARN"
+			}
+		],
+	"source":"BARN",
+	"isolation":"1",
+	"origin":"The file was obtained from labrosa.ee.columbia.edu",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1776644",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"  10.0529",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0001",
+				"level":"-20.736",
+				"peak":" 0.000"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0001",
+				"level":"-20.920",
+				"peak":"-0.002"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":"1694.091",
+	"spectral_spread":" 925.409",
+	"median_loudness":"17.919",
+	"max_loudness":"59.311",
+	"median_sharpness":" 1.508",
+	"max_sharpness":" 2.052",
+	"median_roughness":" 0.054",
+	"max_roughness":" 0.794",
+	"pitch_salience":"  0.3827",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"10.009"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"COOKING.wav",
+	"label":"COOKING",
+	"keywords":
+		[
+			{
+				"keyword":"COOKING"
+			}
+		],
+	"source":"COOKING",
+	"isolation":"1",
+	"origin":"The file was obtained from www.l-m-c.org.uk",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1666116",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"   9.4322",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0042",
+				"level":"-25.989",
+				"peak":"-1.283"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0019",
+				"level":"-26.332",
+				"peak":"-1.283"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":"7004.604",
+	"spectral_spread":"3785.802",
+	"median_loudness":"22.104",
+	"max_loudness":"40.402",
+	"median_sharpness":" 2.483",
+	"max_sharpness":" 2.748",
+	"median_roughness":" 0.324",
+	"max_roughness":" 4.740",
+	"pitch_salience":"  0.1125",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"9.038"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"crossing signal.wav",
+	"label":"crossing signal",
+	"keywords":
+		[
+			{
+				"keyword":"crossing signal"
+			}
+		],
+	"source":"crossing signal",
+	"isolation":"1",
+	"origin":"The file was obtained from audiblefrequency.org",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1388728",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"   7.8619",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-25.727",
+				"peak":"-11.083"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-25.972",
+				"peak":"-11.259"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":" 207.258",
+	"spectral_spread":" 548.757",
+	"median_loudness":"11.996",
+	"max_loudness":"23.548",
+	"median_sharpness":" 1.038",
+	"max_sharpness":" 1.692",
+	"median_roughness":" 0.048",
+	"max_roughness":" 0.395",
+	"pitch_salience":"  0.1552",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"7.764"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"RACING.wav",
+	"label":"RACING",
+	"keywords":
+		[
+			{
+				"keyword":"RACING"
+			}
+		],
+	"source":"RACING",
+	"isolation":"1",
+	"origin":"The file was obtained from labrosa.ee.columbia.edu",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1921264",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"  10.8771",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-26.440",
+				"peak":"-9.708"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-26.018",
+				"peak":"-10.125"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":" 788.624",
+	"spectral_spread":" 554.301",
+	"median_loudness":"18.860",
+	"max_loudness":"29.200",
+	"median_sharpness":" 1.185",
+	"max_sharpness":" 1.394",
+	"median_roughness":" 0.030",
+	"max_roughness":" 0.093",
+	"pitch_salience":"  0.4864",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"10.871"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"CASINO.wav",
+	"label":"CASINO",
+	"keywords":
+		[
+			{
+				"keyword":"CASINO"
+			}
+		],
+	"source":"CASINO",
+	"isolation":"1",
+	"origin":"The file was obtained from The Phonography Archive, www.radiantslab.com/commusiekphonography.html",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1809308",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"  10.2456",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0001",
+				"level":"-24.544",
+				"peak":"-4.471"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0004",
+				"level":"-27.441",
+				"peak":"-7.089"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":"1618.312",
+	"spectral_spread":"2503.866",
+	"median_loudness":"20.851",
+	"max_loudness":"37.563",
+	"median_sharpness":" 1.555",
+	"max_sharpness":" 2.223",
+	"median_roughness":" 0.040",
+	"max_roughness":" 0.352",
+	"pitch_salience":"  0.4470",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"10.087"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"Street and night.wav",
+	"label":"Street and night",
+	"keywords":
+		[
+			{
+				"keyword":"Street and night"
+			}
+		],
+	"source":"Street and night",
+	"isolation":"1",
+	"origin":"The file was obtained from www.quietamerican.org",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1726244",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"   9.7778",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0008",
+				"level":"-25.107",
+				"peak":"-9.146"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0008",
+				"level":"-26.453",
+				"peak":"-3.334"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":"1024.184",
+	"spectral_spread":"2307.994",
+	"median_loudness":"19.705",
+	"max_loudness":"26.266",
+	"median_sharpness":" 1.788",
+	"max_sharpness":" 1.988",
+	"median_roughness":" 0.045",
+	"max_roughness":" 1.467",
+	"pitch_salience":"  0.5178",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"9.700"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"hockey  game.wav",
+	"label":"hockey  game",
+	"keywords":
+		[
+			{
+				"keyword":"hockey  game"
+			}
+		],
+	"source":"hockey  game",
+	"isolation":"1",
+	"origin":"The file was obtained from audiblefrequency.com",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"2123616",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"  12.0252",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-26.056",
+				"peak":"-12.426"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-26.204",
+				"peak":"-13.270"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":"1117.677",
+	"spectral_spread":" 716.717",
+	"median_loudness":"18.105",
+	"max_loudness":"33.865",
+	"median_sharpness":" 1.246",
+	"max_sharpness":" 1.668",
+	"median_roughness":" 0.037",
+	"max_roughness":" 0.898",
+	"pitch_salience":"  0.2490",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"11.879"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"Christmas present.wav",
+	"label":"Christmas present",
+	"keywords":
+		[
+			{
+				"keyword":"Christmas present"
+			}
+		],
+	"source":"Christmas present",
+	"isolation":"1",
+	"origin":"The file was obtained from audiblefrequency.com",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1764768",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"   9.9820",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-23.664",
+				"peak":"-8.410"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-24.083",
+				"peak":"-7.437"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":" 780.693",
+	"spectral_spread":" 973.758",
+	"median_loudness":"15.267",
+	"max_loudness":"33.429",
+	"median_sharpness":" 1.362",
+	"max_sharpness":" 2.145",
+	"median_roughness":" 0.074",
+	"max_roughness":" 0.980",
+	"pitch_salience":"  0.4013",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"9.885"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"construction site.wav",
+	"label":"construction site",
+	"keywords":
+		[
+			{
+				"keyword":"construction site"
+			}
+		],
+	"source":"construction site",
+	"isolation":"1",
+	"origin":"The file was obtained from labrosa.ee.columbia.edu",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1841992",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"  10.4370",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-26.443",
+				"peak":"-7.564"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-25.725",
+				"peak":"-6.592"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":"1765.063",
+	"spectral_spread":"1196.833",
+	"median_loudness":"26.231",
+	"max_loudness":"40.314",
+	"median_sharpness":" 1.553",
+	"max_sharpness":" 1.710",
+	"median_roughness":" 0.037",
+	"max_roughness":" 0.133",
+	"pitch_salience":"  0.2511",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"10.270"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"Forest fire.wav",
+	"label":"Forest fire",
+	"keywords":
+		[
+			{
+				"keyword":"Forest fire"
+			}
+		],
+	"source":"Forest fire",
+	"isolation":"1",
+	"origin":"The file was obtained from labrosa.ee.columbia.edu",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1451400",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"   8.2170",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0061",
+				"level":"-26.173",
+				"peak":"-11.073"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0062",
+				"level":"-25.703",
+				"peak":"-10.566"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":" 807.997",
+	"spectral_spread":"1963.973",
+	"median_loudness":"19.470",
+	"max_loudness":"33.679",
+	"median_sharpness":" 1.541",
+	"max_sharpness":" 2.008",
+	"median_roughness":" 0.379",
+	"max_roughness":" 2.096",
+	"pitch_salience":"  0.0437",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"8.190"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"TIRESHOP.wav",
+	"label":"TIRESHOP",
+	"keywords":
+		[
+			{
+				"keyword":"TIRESHOP"
+			}
+		],
+	"source":"TIRESHOP",
+	"isolation":"1",
+	"origin":"The file was obtained from audiblefrequency.com",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"2387140",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"  13.5207",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-25.304",
+				"peak":"-7.599"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-25.841",
+				"peak":"-7.791"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":" 793.597",
+	"spectral_spread":"1663.931",
+	"median_loudness":"15.764",
+	"max_loudness":"42.053",
+	"median_sharpness":" 1.439",
+	"max_sharpness":" 2.047",
+	"median_roughness":" 0.054",
+	"max_roughness":" 0.256",
+	"pitch_salience":"  0.4028",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"13.442"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"ATM.wav",
+	"label":"ATM",
+	"keywords":
+		[
+			{
+				"keyword":"ATM"
+			}
+		],
+	"source":"ATM",
+	"isolation":"1",
+	"origin":"The file was obtained from quietamerican.org",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"2437160",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"  13.8040",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-24.879",
+				"peak":"-5.217"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-26.321",
+				"peak":"-7.639"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":" 309.976",
+	"spectral_spread":" 719.475",
+	"median_loudness":"12.959",
+	"max_loudness":"34.508",
+	"median_sharpness":" 1.183",
+	"max_sharpness":" 1.937",
+	"median_roughness":" 0.040",
+	"max_roughness":" 1.278",
+	"pitch_salience":"  0.3783",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"13.660"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"BAR.wav",
+	"label":"BAR",
+	"keywords":
+		[
+			{
+				"keyword":"BAR"
+			}
+		],
+	"source":"BAR",
+	"isolation":"1",
+	"origin":"The file was obtained from labrosa.ee.columbia.edu",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1246712",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"   7.0548",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0003",
+				"level":"-26.015",
+				"peak":"-3.916"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0001",
+				"level":"-26.138",
+				"peak":"-5.730"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":" 738.918",
+	"spectral_spread":" 617.446",
+	"median_loudness":"17.169",
+	"max_loudness":"32.336",
+	"median_sharpness":" 1.137",
+	"max_sharpness":" 1.499",
+	"median_roughness":" 0.034",
+	"max_roughness":" 0.159",
+	"pitch_salience":"  0.3937",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"6.916"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"bottling.wav",
+	"label":"bottling",
+	"keywords":
+		[
+			{
+				"keyword":"bottling"
+			}
+		],
+	"source":"bottling",
+	"isolation":"1",
+	"origin":"The file was obtained from labrosa.ee.columbia.edu",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"2297448",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"  13.0179",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0001",
+				"level":"-25.751",
+				"peak":"-5.126"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-26.158",
+				"peak":"-9.045"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":"2481.600",
+	"spectral_spread":"2400.900",
+	"median_loudness":"26.584",
+	"max_loudness":"39.504",
+	"median_sharpness":" 1.723",
+	"max_sharpness":" 2.112",
+	"median_roughness":" 0.043",
+	"max_roughness":" 0.195",
+	"pitch_salience":"  0.1847",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"12.651"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"MARKET.wav",
+	"label":"MARKET",
+	"keywords":
+		[
+			{
+				"keyword":"MARKET"
+			}
+		],
+	"source":"MARKET",
+	"isolation":"1",
+	"origin":"The file was obtained from l-m-c.org.uk",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"2206408",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"  12.4946",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0027",
+				"level":"-25.492",
+				"peak":"-7.375"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0011",
+				"level":"-26.852",
+				"peak":"-8.051"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":" 741.212",
+	"spectral_spread":"1030.035",
+	"median_loudness":"18.604",
+	"max_loudness":"33.417",
+	"median_sharpness":" 1.421",
+	"max_sharpness":" 2.010",
+	"median_roughness":" 0.066",
+	"max_roughness":" 1.001",
+	"pitch_salience":"  0.4884",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"12.380"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"WASHERS.wav",
+	"label":"WASHERS",
+	"keywords":
+		[
+			{
+				"keyword":"WASHERS"
+			}
+		],
+	"source":"WASHERS",
+	"isolation":"1",
+	"origin":"The file was obtained from radiantslab.com/commusiekphonography.html",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1876048",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"  10.6158",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0051",
+				"level":"-24.799",
+				"peak":"-8.630"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0051",
+				"level":"-26.476",
+				"peak":"-10.479"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":" 222.402",
+	"spectral_spread":" 435.641",
+	"median_loudness":"14.938",
+	"max_loudness":"20.750",
+	"median_sharpness":" 1.275",
+	"max_sharpness":" 1.520",
+	"median_roughness":" 0.030",
+	"max_roughness":" 0.117",
+	"pitch_salience":"  0.0630",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"10.193"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"rainy day traffic.wav",
+	"label":"rainy day traffic",
+	"keywords":
+		[
+			{
+				"keyword":"rainy day traffic"
+			}
+		],
+	"source":"rainy day traffic",
+	"isolation":"1",
+	"origin":"The file was obtained from audiblefrequency.com",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"2126852",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"  12.0433",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-26.289",
+				"peak":"-7.804"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-26.155",
+				"peak":"-7.804"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":"1211.025",
+	"spectral_spread":"1967.031",
+	"median_loudness":"25.631",
+	"max_loudness":"33.331",
+	"median_sharpness":" 1.768",
+	"max_sharpness":" 1.942",
+	"median_roughness":" 0.040",
+	"max_roughness":" 0.353",
+	"pitch_salience":"  0.2417",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"11.828"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"SAWMILL.wav",
+	"label":"SAWMILL",
+	"keywords":
+		[
+			{
+				"keyword":"SAWMILL"
+			}
+		],
+	"source":"SAWMILL",
+	"isolation":"1",
+	"origin":"The file was obtained from labrosa.ee.columbia.edu",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1611996",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"   9.1344",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0001",
+				"level":"-25.885",
+				"peak":"-9.729"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-26.433",
+				"peak":"-8.543"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":"1853.960",
+	"spectral_spread":"2011.655",
+	"median_loudness":"27.367",
+	"max_loudness":"37.631",
+	"median_sharpness":" 1.631",
+	"max_sharpness":" 1.887",
+	"median_roughness":" 0.034",
+	"max_roughness":" 0.088",
+	"pitch_salience":"  0.1160",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"9.048"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"OFFICE.wav",
+	"label":"OFFICE",
+	"keywords":
+		[
+			{
+				"keyword":"OFFICE"
+			}
+		],
+	"source":"OFFICE",
+	"isolation":"1",
+	"origin":"The file was obtained from labrosa.ee.columbia.edu",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1411700",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"   7.9957",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0002",
+				"level":"-25.820",
+				"peak":"-7.774"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0001",
+				"level":"-25.893",
+				"peak":"-6.120"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":" 988.287",
+	"spectral_spread":" 791.393",
+	"median_loudness":"21.708",
+	"max_loudness":"34.759",
+	"median_sharpness":" 1.287",
+	"max_sharpness":" 1.746",
+	"median_roughness":" 0.045",
+	"max_roughness":" 0.561",
+	"pitch_salience":"  0.3090",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"7.880"
+			}
+		],
+	"identifiability":"0.970"
+	}
+	,
+	{
+	"filename":"library.wav",
+	"label":"library",
+	"keywords":
+		[
+			{
+				"keyword":"library"
+			}
+		],
+	"source":"library",
+	"isolation":"1",
+	"origin":"The file was obtained from quietamerican.org.  Originally recorded by John Kannenberg.",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"2019108",
+	"sampling_rate":"44100.00",
+	"quantization_depth":"16",
+	"duration":"  11.4273",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-23.235",
+				"peak":"-1.350"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0001",
+				"level":"-22.441",
+				"peak":"-1.875"
+			}
+		],
+	"clipped_samples":"0",
+	"citations":
+		[
+			{
+				""citation":"Gygi, B., & Shafiro, V. (2010, in press). The incongruency advantage for environmental sounds presented in natural auditory scenes (manuscript accepted by the journal of experimental psychology, human perception & performance.Unpublished manuscript."
+			}
+		],
+	"spectral_centroid":" 412.872",
+	"spectral_spread":" 444.112",
+	"median_loudness":"15.801",
+	"max_loudness":"35.288",
+	"median_sharpness":" 1.199",
+	"max_sharpness":" 1.675",
+	"median_roughness":" 0.031",
+	"max_roughness":" 1.234",
+	"pitch_salience":"  0.3028",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"11.268"
+			}
+		],
+	"identifiability":"0.970"
+	}
+]

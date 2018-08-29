@@ -1,0 +1,20 @@
+#delta{
+    width:390px;
+}
+#gamma{
+    width:390px;
+    margin-left:400px;
+}
+textarea{
+    background-color:#ffeeff;
+    width:380px;
+}
+input{
+    width:380px;
+}
+#wrapper_2{
+    background-image: url(../images/white_aaaaee800b.gif);
+}
+#upload_mp3s{
+    border:1px solid red;
+}

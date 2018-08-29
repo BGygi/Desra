@@ -1,0 +1,64 @@
+*{
+        margin:0;
+    }
+    body{
+
+    }
+    div,p,td,td p,div p{
+        font: normal normal normal 14px sans-serif;
+        
+    }
+
+    #wrapper_1,#wrapper_2{
+        text-align:center;
+    }
+    #wrapper_2{
+        width:800px;
+        margin:10px auto;
+
+    }
+    #left_menu,#contact_us,#bulletins,#welcome_messages{
+      /*  margin:.5em; */
+    }
+    /*
+    #left_menu h3,#contact_us h3,#store_intro h3,#bulletins h3{
+        font-size:1.3em;
+        text-align:center;
+    }
+    */
+    #delta{
+        width:190px;
+        float:left;
+        margin-left:.5em;
+    }
+   #gamma{
+        width:580px;
+        margin-left:210px;
+        text-align:left;
+        
+    }
+    #innerfooter,#innerfooter_wrapper{
+        clear:left;
+    }
+    #delta div a{
+        font-size:12px;
+        text-decoration:none;
+    }
+    #delta div a:hover{
+        font-size:12px;
+        text-decoration:none;
+    }
+    
+    #login_form,#edit_form{
+        margin:.5em;
+    
+    }
+    #edit_list{
+        margin:.5em;
+    
+    }
+    #errors{
+        font-size:12px;
+        margin-left:400px;
+        padding:.5em;
+    }

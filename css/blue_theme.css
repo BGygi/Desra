@@ -1,0 +1,44 @@
+/*
+    NOTE: when using images as background images
+    best practice might be to set image from
+    included php file.
+*/
+#banner_wrapper{
+	width: 800px;
+	height: 100px;
+	min-height: 100px;
+    background-image: url(../images/protosaur_banner.gif);
+	background-color: #3333cc;
+
+	border: 0px solid #ffffff;
+    
+}
+#alpha{
+    width:auto;
+    font-family:arial black;
+    font-size:20px;
+    color:#ffffff;
+  /*  position:relative;
+  */
+      
+    top:30px;
+}
+#wrapper_2{
+       border:1px solid #0000cc;
+     /*  background-color: #aaaaee;
+     */
+
+}
+#delta{
+    text-align:left;
+}
+.nospace{
+    padding:0px;
+    margin:0px;
+    border:1px solid red;
+}
+#wrapper_2{
+
+    background-image: url(../images/white_aaaaee800a.gif);
+
+}

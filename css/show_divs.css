@@ -1,0 +1,27 @@
+    *{
+        width:auto;
+    }
+    div{
+            border:1px solid red;
+            min-height:20px;
+    }
+    div div{
+        border:1px solid blue;
+        min-height:20px;
+    }
+    div div div{
+        border:1px solid orange;
+        min-height:20px;
+    }
+    div div div div{
+        border:1px solid black;
+        min-height:20px;
+    }
+    div div div div div{
+        border:1px solid green;
+        min-height:20px;
+    }
+    div div div div div{
+        border:1px solid purple;
+        min-height:'20px';
+    }

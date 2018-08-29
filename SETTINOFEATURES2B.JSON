@@ -1,0 +1,3709 @@
+[
+	{
+	"filename":"Applause1.wav",
+	"label":"Applause1",
+	"keywords":
+		[
+			{
+				"keyword":"Applause"
+			}
+		],
+	"source":"Applause",
+	"isolation":"2",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"2592854",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   8.9301",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-29.245",
+				"peak":"-6.782"
+			},
+		[
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-28.767",
+				"peak":"-5.045"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"1271.067",
+	"spectral_spread":"1292.268",
+	"median_loudness":"17.018",
+	"max_loudness":"27.395",
+	"median_sharpness":" 1.380",
+	"max_sharpness":" 1.865",
+	"median_roughness":" 0.188",
+	"max_roughness":" 1.537",
+	"pitch_salience":"  0.2615",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"9.406"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Applause2.wav",
+	"label":"Applause2",
+	"keywords":
+		[
+			{
+				"keyword":"Applause"
+			}
+		],
+	"source":"Applause",
+	"isolation":"2",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"3035804",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  10.4208",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-23.485",
+				"peak":"-3.079"
+			},
+		[
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-23.353",
+				"peak":"-3.406"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"1587.221",
+	"spectral_spread":"1488.882",
+	"median_loudness":"25.950",
+	"max_loudness":"41.011",
+	"median_sharpness":" 1.554",
+	"max_sharpness":" 1.882",
+	"median_roughness":" 0.136",
+	"max_roughness":" 0.709",
+	"pitch_salience":"  0.2458",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"11.286"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Applause3.wav",
+	"label":"Applause3",
+	"keywords":
+		[
+			{
+				"keyword":"Applause"
+			}
+		],
+	"source":"Applause3",
+	"isolation":"2",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"3199208",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  11.0730",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-20.042",
+				"peak":" 0.000"
+			},
+		[
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-19.346",
+				"peak":" 0.000"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"1334.664",
+	"spectral_spread":"1282.566",
+	"median_loudness":"29.490",
+	"max_loudness":"58.204",
+	"median_sharpness":" 1.580",
+	"max_sharpness":" 1.830",
+	"median_roughness":" 0.186",
+	"max_roughness":" 1.268",
+	"pitch_salience":"  0.3197",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"11.984"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Applause4.wav",
+	"label":"Applause4",
+	"keywords":
+		[
+			{
+				"keyword":"Applause"
+			}
+		],
+	"source":"Applause4",
+	"isolation":"2",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"3272444",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  11.3314",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-19.614",
+				"peak":" 0.000"
+			},
+		[
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-18.973",
+				"peak":" 0.000"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"1513.409",
+	"spectral_spread":"1368.672",
+	"median_loudness":"31.571",
+	"max_loudness":"54.906",
+	"median_sharpness":" 1.569",
+	"max_sharpness":" 1.960",
+	"median_roughness":" 0.171",
+	"max_roughness":" 1.730",
+	"pitch_salience":"  0.2458",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"12.309"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Applause5.wav",
+	"label":"Applause5",
+	"keywords":
+		[
+			{
+				"keyword":"Applause"
+			}
+		],
+	"source":"Applause",
+	"isolation":"2",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1784204",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   6.1426",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-23.029",
+				"peak":"-3.789"
+			},
+		[
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-22.372",
+				"peak":"-3.486"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"1045.116",
+	"spectral_spread":" 654.672",
+	"median_loudness":"15.974",
+	"max_loudness":"42.538",
+	"median_sharpness":" 1.204",
+	"max_sharpness":" 1.526",
+	"median_roughness":" 0.051",
+	"max_roughness":" 0.137",
+	"pitch_salience":"  0.3575",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"6.663"
+			}
+		]
+	}
+	,
+	{
+	"filename":"BabyCry1_70_1ft.WAV",
+	"label":"BabyCry1_70_1ft",
+	"keywords":
+		[
+			{
+				"keyword":"Baby Crying"
+			}
+		],
+	"source":"Baby Crying 70dB at 1ft",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"23231828",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  80.6659",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-21.509",
+				"peak":" 0.000"
+			},
+		[
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-21.963",
+				"peak":" 0.000"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"2672.695",
+	"spectral_spread":"1927.000",
+	"median_loudness":"16.732",
+	"max_loudness":"63.485",
+	"median_sharpness":" 1.714",
+	"max_sharpness":" 2.430",
+	"median_roughness":" 0.035",
+	"max_roughness":" 3.133",
+	"pitch_salience":"  0.7210",
+	"pitch":"599.4258",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"87.799"
+			}
+		]
+	}
+	,
+	{
+	"filename":"BabyCry2_70_1ft.wav",
+	"label":"BabyCry2_70_1ft",
+	"keywords":
+		[
+			{
+				"keyword":"Baby Crying"
+			}
+		],
+	"source":"Baby Crying 70dB at 1ft",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"4815572",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  16.6596",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-21.831",
+				"peak":"-0.169"
+			},
+		[
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-21.560",
+				"peak":"-0.239"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"2618.097",
+	"spectral_spread":"1369.330",
+	"median_loudness":"17.232",
+	"max_loudness":"48.369",
+	"median_sharpness":" 1.707",
+	"max_sharpness":" 2.123",
+	"median_roughness":" 0.105",
+	"max_roughness":" 3.292",
+	"pitch_salience":"  0.5891",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"18.110"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Helicopter1.WAV",
+	"label":"Helicopter1",
+	"keywords":
+		[
+			{
+				"keyword":"Helicopter"
+			}
+		],
+	"source":"Helicopter",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"58202156",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":" 202.0907",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-24.326",
+				"peak":"-4.699"
+			},
+		[
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-24.858",
+				"peak":"-4.772"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 845.647",
+	"spectral_spread":" 763.496",
+	"median_loudness":"21.406",
+	"max_loudness":"37.594",
+	"median_sharpness":" 1.234",
+	"max_sharpness":" 1.400",
+	"median_roughness":" 0.136",
+	"max_roughness":" 1.934",
+	"pitch_salience":"  0.5564",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+		],
+	}
+	,
+	{
+	"filename":"Rain5_52_10ft.wav",
+	"label":"Rain5_52_10ft",
+	"keywords":
+		[
+			{
+				"keyword":"Rain"
+			}
+		],
+	"source":"Rain 52dB at 10ft",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"11282084",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  39.1737",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-43.181",
+				"peak":"-23.043"
+			},
+		[
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-46.122",
+				"peak":"-23.741"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 806.448",
+	"spectral_spread":"1693.818",
+	"median_loudness":" 7.004",
+	"max_loudness":"10.228",
+	"median_sharpness":" 1.413",
+	"max_sharpness":" 1.888",
+	"median_roughness":" 0.038",
+	"max_roughness":" 0.854",
+	"pitch_salience":"  0.1297",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"42.634"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Rain6_55_3ft.WAV",
+	"label":"Rain6_55_3ft",
+	"keywords":
+		[
+			{
+				"keyword":"Rain"
+			}
+		],
+	"source":"Rain 55dB at 3ft",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"15818444",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  54.9250",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-42.258",
+				"peak":"-11.470"
+			},
+		[
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-39.309",
+				"peak":"-10.149"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"2018.224",
+	"spectral_spread":"3256.567",
+	"median_loudness":" 8.852",
+	"max_loudness":"21.890",
+	"median_sharpness":" 1.822",
+	"max_sharpness":" 2.513",
+	"median_roughness":" 0.148",
+	"max_roughness":" 2.356",
+	"pitch_salience":"  0.2489",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"59.744"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Rain7_55_2ft.WAV",
+	"label":"Rain7_55_2ft",
+	"keywords":
+		[
+			{
+				"keyword":"Rain"
+			}
+		],
+	"source":"Rain 55dB at 2ft",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"37316204",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":" 129.5700",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-42.186",
+				"peak":"-3.927"
+			},
+		[
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-40.266",
+				"peak":" 0.000"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"1768.589",
+	"spectral_spread":"2939.291",
+	"median_loudness":" 7.317",
+	"max_loudness":"21.216",
+	"median_sharpness":" 1.557",
+	"max_sharpness":" 2.645",
+	"median_roughness":" 0.120",
+	"max_roughness":" 4.798",
+	"pitch_salience":"  0.1079",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+		],
+	}
+	,
+	{
+	"filename":"Reatuarant2.WAV",
+	"label":"Reatuarant2",
+	"keywords":
+		[
+			{
+				"keyword":"Restaurant"
+			}
+		],
+	"source":"Restuarant",
+	"isolation":"2",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"18445868",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  64.0392",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-18.862",
+				"peak":" 0.000"
+			},
+		[
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-18.005",
+				"peak":" 0.000"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 640.945",
+	"spectral_spread":" 589.448",
+	"median_loudness":"30.173",
+	"max_loudness":"51.576",
+	"median_sharpness":" 1.206",
+	"max_sharpness":" 1.489",
+	"median_roughness":" 0.048",
+	"max_roughness":" 0.324",
+	"pitch_salience":"  0.3829",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"69.417"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Restuarant1.wav",
+	"label":"Restuarant1",
+	"keywords":
+		[
+			{
+				"keyword":"Restaurant"
+			}
+		],
+	"source":"Restuarant",
+	"isolation":"2",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"4924460",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  17.0946",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0001",
+				"level":"-18.244",
+				"peak":" 0.000"
+			},
+		[
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0001",
+				"level":"-17.444",
+				"peak":" 0.000"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 638.899",
+	"spectral_spread":" 624.511",
+	"median_loudness":"30.507",
+	"max_loudness":"56.980",
+	"median_sharpness":" 1.212",
+	"max_sharpness":" 1.667",
+	"median_roughness":" 0.045",
+	"max_roughness":" 0.162",
+	"pitch_salience":"  0.3486",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"18.443"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Thunder1Settino.wav",
+	"label":"Thunder1",
+	"keywords":
+		[
+			{
+				"keyword":"Thunder1"
+			}
+		],
+	"source":"Thunder",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"6768044",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  23.4209",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-20.815",
+				"peak":" 0.000"
+			},
+		[
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-19.861",
+				"peak":" 0.000"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 261.038",
+	"spectral_spread":" 268.753",
+	"median_loudness":"16.393",
+	"max_loudness":"35.178",
+	"median_sharpness":" 1.161",
+	"max_sharpness":" 1.715",
+	"median_roughness":" 0.050",
+	"max_roughness":" 0.494",
+	"pitch_salience":"  0.0878",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"25.391"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Waves1_75_30ft.WAV",
+	"label":"Waves1_75_30ft",
+	"keywords":
+		[
+			{
+				"keyword":"Waves"
+			}
+		],
+	"source":"Waves 75dB  at 30ft",
+	"isolation":"2",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"27793004",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  96.4760",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-26.264",
+				"peak":"-10.084"
+			},
+		[
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-26.091",
+				"peak":"-11.208"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 277.980",
+	"spectral_spread":" 352.134",
+	"median_loudness":"12.812",
+	"max_loudness":"20.431",
+	"median_sharpness":" 1.092",
+	"max_sharpness":" 1.265",
+	"median_roughness":" 0.037",
+	"max_roughness":" 0.165",
+	"pitch_salience":"  0.0539",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+		],
+	}
+	,
+	{
+	"filename":"Waves2_75_30ft.WAV",
+	"label":"Waves2_75_30ft",
+	"keywords":
+		[
+			{
+				"keyword":"Waves"
+			}
+		],
+	"source":"Waves 75dB at 30ft",
+	"isolation":"2",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"43373612",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":" 150.5738",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-24.944",
+				"peak":"-8.021"
+			},
+		[
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-24.627",
+				"peak":"-7.825"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 241.829",
+	"spectral_spread":" 409.212",
+	"median_loudness":"12.652",
+	"max_loudness":"24.660",
+	"median_sharpness":" 1.121",
+	"max_sharpness":" 1.592",
+	"median_roughness":" 0.035",
+	"max_roughness":" 0.170",
+	"pitch_salience":"  0.0374",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+		],
+	}
+	,
+	{
+	"filename":"Airplane1_75_500ft.wav",
+	"label":"Airplane1_75_500ft",
+	"keywords":
+		[
+			{
+				"keyword":"Airplane"
+			}
+		],
+	"source":"Airplane 75dB at 500ft",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"4808144",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  16.6519",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-17.485",
+				"peak":" 0.000"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-21.440",
+				"peak":"-3.360"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 310.511",
+	"spectral_spread":" 253.621",
+	"median_loudness":"14.166",
+	"max_loudness":"35.891",
+	"median_sharpness":" 0.770",
+	"max_sharpness":" 0.996",
+	"median_roughness":" 0.047",
+	"max_roughness":" 0.210",
+	"pitch_salience":"  0.0594",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"18.098"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Airplane2_70_500ft.WAV",
+	"label":"Airplane2_70_500ft",
+	"keywords":
+		[
+			{
+				"keyword":"Airplane"
+			}
+		],
+	"source":"Airplane 70dB at 500ft",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"4891724",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  16.8690",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-30.764",
+				"peak":"-16.988"
+			},
+		[
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-28.432",
+				"peak":"-11.863"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 219.150",
+	"spectral_spread":" 122.627",
+	"median_loudness":" 6.373",
+	"max_loudness":"12.655",
+	"median_sharpness":" 0.739",
+	"max_sharpness":" 0.876",
+	"median_roughness":" 0.021",
+	"max_roughness":" 0.080",
+	"pitch_salience":"  0.2024",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"18.289"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Airplane3_77_500ft.WAV",
+	"label":"Airplane3_77_500ft",
+	"keywords":
+		[
+			{
+				"keyword":"Airplane"
+			}
+		],
+	"source":"Airplane 77dB at 500ft",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"4502444",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  15.6095",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-16.959",
+				"peak":"-0.671"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-18.290",
+				"peak":"-1.198"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 384.672",
+	"spectral_spread":" 295.766",
+	"median_loudness":"22.587",
+	"max_loudness":"37.624",
+	"median_sharpness":" 0.887",
+	"max_sharpness":" 1.038",
+	"median_roughness":" 0.050",
+	"max_roughness":" 0.163",
+	"pitch_salience":"  0.1330",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"16.923"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Airplane4_60_600ft.WAV",
+	"label":"Airplane4_60_600ft",
+	"keywords":
+		[
+			{
+				"keyword":"Airplane"
+			}
+		],
+	"source":"Airplane 60dB at 600ft",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"7311644",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  25.2888",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-30.164",
+				"peak":"-14.790"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-25.658",
+				"peak":"-8.788"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 480.912",
+	"spectral_spread":" 508.576",
+	"median_loudness":"14.061",
+	"max_loudness":"26.601",
+	"median_sharpness":" 0.995",
+	"max_sharpness":" 1.226",
+	"median_roughness":" 0.037",
+	"max_roughness":" 0.191",
+	"pitch_salience":"  0.2554",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"27.358"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Birds1_57_40ft.WAV",
+	"label":"Birds1_57_40ft",
+	"keywords":
+		[
+			{
+				"keyword":"Birds"
+			}
+		],
+	"source":"Birds 57dB at 40ft",
+	"isolation":"2",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"14611964",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  50.4139",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-40.291",
+				"peak":"-23.700"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-41.898",
+				"peak":"-23.229"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"1089.024",
+	"spectral_spread":"1894.379",
+	"median_loudness":" 3.228",
+	"max_loudness":"10.263",
+	"median_sharpness":" 1.265",
+	"max_sharpness":" 2.363",
+	"median_roughness":" 0.019",
+	"max_roughness":" 0.212",
+	"pitch_salience":"  0.1759",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"54.819"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Bowling1_75_40ft.WAV",
+	"label":"Bowling1_75_40ft",
+	"keywords":
+		[
+			{
+				"keyword":"Bowling"
+			}
+		],
+	"source":"Bowling 75dB at 40ft",
+	"isolation":"2",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"17632586",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  61.2027",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-31.686",
+				"peak":"-3.176"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-31.167",
+				"peak":"-2.713"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 592.452",
+	"spectral_spread":" 821.593",
+	"median_loudness":"12.012",
+	"max_loudness":"34.985",
+	"median_sharpness":" 1.315",
+	"max_sharpness":" 1.732",
+	"median_roughness":" 0.036",
+	"max_roughness":" 2.789",
+	"pitch_salience":"  0.2564",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"66.421"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Bowling2_75_40ft.WAV",
+	"label":"Bowling2_75_40ft",
+	"keywords":
+		[
+			{
+				"keyword":"Bowling"
+			}
+		],
+	"source":"Bowling 75dB at 40ft",
+	"isolation":"2",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"24084764",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  83.5956",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-28.837",
+				"peak":"-3.154"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-28.762",
+				"peak":"-1.398"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 672.342",
+	"spectral_spread":" 848.632",
+	"median_loudness":"16.169",
+	"max_loudness":"37.873",
+	"median_sharpness":" 1.325",
+	"max_sharpness":" 1.783",
+	"median_roughness":" 0.042",
+	"max_roughness":" 1.796",
+	"pitch_salience":"  0.2612",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"90.878"
+			}
+		]
+	}
+	,
+	{
+	"filename":"BusyStreet1_76_40ft.WAV",
+	"label":"BusyStreet1_76_40ft",
+	"keywords":
+		[
+			{
+				"keyword":"Busy Street"
+			}
+		],
+	"source":"Busy Street 76dB at 40ft",
+	"isolation":"2",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"13010444",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  45.1278",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-29.731",
+				"peak":"-11.353"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-29.731",
+				"peak":"-14.031"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 242.064",
+	"spectral_spread":" 501.632",
+	"median_loudness":"10.922",
+	"max_loudness":"21.288",
+	"median_sharpness":" 1.130",
+	"max_sharpness":" 1.777",
+	"median_roughness":" 0.033",
+	"max_roughness":" 0.190",
+	"pitch_salience":"  0.0586",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"49.063"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Buzzer1_70_5in.wav",
+	"label":"Buzzer1_70_5in",
+	"keywords":
+		[
+			{
+				"keyword":"Buzzer"
+			}
+		],
+	"source":"Buzzer 70dB at 5in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"301124",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   0.4782",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-24.205",
+				"peak":"-8.537"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-23.218",
+				"peak":"-8.364"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"6632.579",
+	"spectral_spread":"3544.356",
+	"median_loudness":" 0.238",
+	"max_loudness":"29.682",
+	"median_sharpness":" 1.779",
+	"max_sharpness":" 2.578",
+	"median_roughness":" 0.000",
+	"max_roughness":" 1.277",
+	"pitch_salience":"  0.5994",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"0.424"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Buzzer2_70_5in.wav",
+	"label":"Buzzer2_70_5in",
+	"keywords":
+		[
+			{
+				"keyword":"Buzzer"
+			}
+		],
+	"source":"Buzzer 70dB 5in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"369308",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   0.8980",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-22.817",
+				"peak":"-8.826"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-21.843",
+				"peak":"-8.642"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"6660.286",
+	"spectral_spread":"3578.615",
+	"median_loudness":"21.331",
+	"max_loudness":"28.452",
+	"median_sharpness":" 2.481",
+	"max_sharpness":" 2.570",
+	"median_roughness":" 0.046",
+	"max_roughness":" 1.106",
+	"pitch_salience":"  0.7873",
+	"pitch":"491.3564",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"0.794"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Clock1_50_2in.WAV",
+	"label":"Clock1_50_2in",
+	"keywords":
+		[
+			{
+				"keyword":"Clock"
+			}
+		],
+	"source":"Clock 50dB at 2in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"2937956",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   9.8756",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-53.691",
+				"peak":"-33.907"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-53.110",
+				"peak":"-34.108"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"1346.144",
+	"spectral_spread":"3468.039",
+	"median_loudness":" 1.611",
+	"max_loudness":" 5.840",
+	"median_sharpness":" 1.773",
+	"max_sharpness":" 1.915",
+	"median_roughness":" 0.001",
+	"max_roughness":" 0.700",
+	"pitch_salience":"  0.0749",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"10.696"
+			}
+		]
+	}
+	,
+	{
+	"filename":"ConstructionSample.wav",
+	"label":"ConstructionSample",
+	"keywords":
+		[
+			{
+				"keyword":"Construction"
+			}
+		],
+	"source":"Construction",
+	"isolation":"2",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"4566776",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  15.8567",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-31.725",
+				"peak":" 0.000"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-32.959",
+				"peak":" 0.000"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 954.988",
+	"spectral_spread":"1584.490",
+	"median_loudness":" 6.094",
+	"max_loudness":"49.488",
+	"median_sharpness":" 1.394",
+	"max_sharpness":" 2.267",
+	"median_roughness":" 0.171",
+	"max_roughness":" 3.616",
+	"pitch_salience":"  0.3214",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"17.239"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Cymbal1_70_1ft.wav",
+	"label":"Cymbal1_70_1ft",
+	"keywords":
+		[
+			{
+				"keyword":"Cymbal"
+			}
+		],
+	"source":"Cymbal 70dB at 1ft",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1748684",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   4.4055",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-33.475",
+				"peak":"-12.749"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-31.968",
+				"peak":"-10.314"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"3275.259",
+	"spectral_spread":"1520.858",
+	"median_loudness":" 3.701",
+	"max_loudness":"31.643",
+	"median_sharpness":" 1.479",
+	"max_sharpness":" 2.125",
+	"median_roughness":" 0.004",
+	"max_roughness":" 1.649",
+	"pitch_salience":"  0.2903",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"4.649"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Cymbal2_70_1ft.wav",
+	"label":"Cymbal2_70_1ft",
+	"keywords":
+		[
+			{
+				"keyword":"Cymbal"
+			}
+		],
+	"source":"Cymbal 70dB at 1ft",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1439864",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   3.6416",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-29.908",
+				"peak":"-5.545"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-30.873",
+				"peak":"-6.259"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"4022.244",
+	"spectral_spread":"1707.625",
+	"median_loudness":" 2.197",
+	"max_loudness":"39.048",
+	"median_sharpness":" 1.246",
+	"max_sharpness":" 2.176",
+	"median_roughness":" 0.004",
+	"max_roughness":" 0.679",
+	"pitch_salience":"  0.3092",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"3.932"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Cymbal3_70_1ft.wav",
+	"label":"Cymbal3_70_1ft",
+	"keywords":
+		[
+			{
+				"keyword":"Cymbal3_70_1ft"
+			}
+		],
+	"source":"Cymbal3_70_1ft",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1588184",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   3.7770",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-31.926",
+				"peak":"-8.162"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-30.413",
+				"peak":"-6.373"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"5552.323",
+	"spectral_spread":"2471.409",
+	"median_loudness":" 1.570",
+	"max_loudness":"37.074",
+	"median_sharpness":" 1.724",
+	"max_sharpness":" 2.480",
+	"median_roughness":" 0.001",
+	"max_roughness":" 1.355",
+	"pitch_salience":"  0.2919",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"4.070"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Cymbal4_70_1ft.wav",
+	"label":"Cymbal4_70_1ft",
+	"keywords":
+		[
+			{
+				"keyword":"Cymbal4_70_1ft"
+			}
+		],
+	"source":"Cymbal4_70_1ft",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1671464",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   4.7610",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-36.331",
+				"peak":"-13.008"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-36.724",
+				"peak":"-13.008"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"3288.139",
+	"spectral_spread":"2204.344",
+	"median_loudness":" 3.116",
+	"max_loudness":"31.312",
+	"median_sharpness":" 1.248",
+	"max_sharpness":" 2.094",
+	"median_roughness":" 0.004",
+	"max_roughness":" 1.391",
+	"pitch_salience":"  0.6016",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"5.153"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Drumset1_70_3ft.wav",
+	"label":"Drumset1_70_3ft",
+	"keywords":
+		[
+			{
+				"keyword":"Drumset"
+			}
+		],
+	"source":"Drumset 70dB at 3ft",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1567958",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   4.8538",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-19.694",
+				"peak":" 0.000"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-21.564",
+				"peak":"-0.310"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 354.707",
+	"spectral_spread":"1100.573",
+	"median_loudness":" 6.989",
+	"max_loudness":"42.671",
+	"median_sharpness":" 1.026",
+	"max_sharpness":" 2.251",
+	"median_roughness":" 0.036",
+	"max_roughness":" 2.294",
+	"pitch_salience":"  0.0870",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"5.242"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Drumset2_70_3ft.wav",
+	"label":"Drumset2_70_3ft",
+	"keywords":
+		[
+			{
+				"keyword":"Drumset"
+			}
+		],
+	"source":"Drumset 70dB at 3ft",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"2030894",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   6.6852",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-21.040",
+				"peak":" 0.000"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-22.991",
+				"peak":"-1.073"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 441.124",
+	"spectral_spread":"1568.262",
+	"median_loudness":" 8.639",
+	"max_loudness":"41.239",
+	"median_sharpness":" 1.077",
+	"max_sharpness":" 2.141",
+	"median_roughness":" 0.069",
+	"max_roughness":" 2.600",
+	"pitch_salience":"  0.0937",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"7.272"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Fire1_70_5ft.wav",
+	"label":"Fire1_70_5ft",
+	"keywords":
+		[
+			{
+				"keyword":"Fire"
+			}
+		],
+	"source":"Fire 70dB at 5ft",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"19296812",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  66.9286",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-31.794",
+				"peak":" 0.000"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-32.477",
+				"peak":" 0.000"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"2048.167",
+	"spectral_spread":"3047.364",
+	"median_loudness":" 5.550",
+	"max_loudness":"43.959",
+	"median_sharpness":" 1.707",
+	"max_sharpness":" 2.847",
+	"median_roughness":" 1.457",
+	"max_roughness":" 6.693",
+	"pitch_salience":"  0.2986",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"72.839"
+			}
+		]
+	}
+	,
+	{
+	"filename":"IceInGlass1_65_6.WAV",
+	"label":"IceInGlass1_65_6",
+	"keywords":
+		[
+			{
+				"keyword":"Ice in Glass"
+			}
+		],
+	"source":"Ice in glass 65dB at 6 feet",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"734792",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   1.3799",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-27.556",
+				"peak":"-3.803"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-25.513",
+				"peak":"-1.983"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"4644.238",
+	"spectral_spread":"2425.502",
+	"median_loudness":" 0.423",
+	"max_loudness":"42.375",
+	"median_sharpness":" 1.756",
+	"max_sharpness":" 2.473",
+	"median_roughness":" 0.070",
+	"max_roughness":" 3.352",
+	"pitch_salience":"  0.4355",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"1.404"
+			}
+		]
+	}
+	,
+	{
+	"filename":"IceInGlass2_60_5in.WAV",
+	"label":"IceInGlass2_60_5in",
+	"keywords":
+		[
+			{
+				"keyword":"Ice in Glass"
+			}
+		],
+	"source":"Ice in Glass 60dB at 5in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"670928",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   1.3286",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-32.049",
+				"peak":"-7.044"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-29.567",
+				"peak":"-2.788"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"3045.759",
+	"spectral_spread":"3603.324",
+	"median_loudness":" 0.328",
+	"max_loudness":"38.048",
+	"median_sharpness":" 1.622",
+	"max_sharpness":" 2.151",
+	"median_roughness":" 0.000",
+	"max_roughness":" 2.646",
+	"pitch_salience":"  0.2964",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"1.386"
+			}
+		]
+	}
+	,
+	{
+	"filename":"IceInGlass3_57_6in.WAV",
+	"label":"IceInGlass3_57_6in",
+	"keywords":
+		[
+			{
+				"keyword":"Ice in Glass "
+			}
+		],
+	"source":"Ice in Glass 57dB at 6in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"514124",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   1.0917",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-34.052",
+				"peak":"-12.764"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-33.031",
+				"peak":"-10.190"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"3538.874",
+	"spectral_spread":"3074.429",
+	"median_loudness":" 0.830",
+	"max_loudness":"29.713",
+	"median_sharpness":" 1.767",
+	"max_sharpness":" 2.161",
+	"median_roughness":" 0.001",
+	"max_roughness":" 2.926",
+	"pitch_salience":"  0.4803",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"1.167"
+			}
+		]
+	}
+	,
+	{
+	"filename":"IceInGlass4_68_6in.WAV",
+	"label":"IceInGlass4_68_6in",
+	"keywords":
+		[
+			{
+				"keyword":"Ice in Glass"
+			}
+		],
+	"source":"Ice in Glass 68dB at 6in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"583094",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   1.4061",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-33.042",
+				"peak":"-11.066"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-31.795",
+				"peak":"-9.634"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"4940.276",
+	"spectral_spread":"3502.032",
+	"median_loudness":" 6.047",
+	"max_loudness":"26.127",
+	"median_sharpness":" 1.891",
+	"max_sharpness":" 2.607",
+	"median_roughness":" 0.713",
+	"max_roughness":" 2.315",
+	"pitch_salience":"  0.3823",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"1.530"
+			}
+		]
+	}
+	,
+	{
+	"filename":"IceInGlass5_68_6in.WAV",
+	"label":"IceInGlass5_68_6in",
+	"keywords":
+		[
+			{
+				"keyword":"Ice in Glass"
+			}
+		],
+	"source":"Ice in Glass 68dB at 6in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"679466",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   1.7153",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-28.202",
+				"peak":"-2.756"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-25.698",
+				"peak":"-0.962"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"4452.146",
+	"spectral_spread":"2266.804",
+	"median_loudness":" 8.291",
+	"max_loudness":"36.293",
+	"median_sharpness":" 1.674",
+	"max_sharpness":" 2.389",
+	"median_roughness":" 0.422",
+	"max_roughness":" 1.285",
+	"pitch_salience":"  0.3712",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"1.768"
+			}
+		]
+	}
+	,
+	{
+	"filename":"IceInGlass6_64_6in.WAV",
+	"label":"IceInGlass6_64_6in",
+	"keywords":
+		[
+			{
+				"keyword":"Ice in Glass"
+			}
+		],
+	"source":"Ice in Glass 64dB at 6in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"576260",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   1.3258",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-30.914",
+				"peak":"-8.062"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-31.240",
+				"peak":"-7.514"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"3723.710",
+	"spectral_spread":"2763.523",
+	"median_loudness":" 8.885",
+	"max_loudness":"35.892",
+	"median_sharpness":" 1.591",
+	"max_sharpness":" 2.204",
+	"median_roughness":" 0.252",
+	"max_roughness":" 4.487",
+	"pitch_salience":"  0.4118",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"1.371"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Kitchen1_60_15inEndSound.wav",
+	"label":"Kitchen1_60_15inEndSound",
+	"keywords":
+		[
+			{
+				"keyword":"Kitchen"
+			}
+		],
+	"source":"Kitchen 60 dB at 15in",
+	"isolation":"2",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"17039924",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  58.9382",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-31.485",
+				"peak":" 0.000"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-30.727",
+				"peak":" 0.000"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"3419.413",
+	"spectral_spread":"4368.582",
+	"median_loudness":" 8.331",
+	"max_loudness":"46.727",
+	"median_sharpness":" 2.102",
+	"max_sharpness":" 3.109",
+	"median_roughness":" 0.060",
+	"max_roughness":" 3.992",
+	"pitch_salience":"  0.2750",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"64.011"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Kitchen2_60_15inEndSound.wav",
+	"label":"Kitchen2_60_15inEndSound",
+	"keywords":
+		[
+			{
+				"keyword":"Kitchen"
+			}
+		],
+	"source":"Kitchen 60dB at 15in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"14715044",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  50.8937",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-35.807",
+				"peak":"-4.618"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-35.027",
+				"peak":" 0.000"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"3111.404",
+	"spectral_spread":"4106.484",
+	"median_loudness":" 5.622",
+	"max_loudness":"37.580",
+	"median_sharpness":" 2.189",
+	"max_sharpness":" 2.872",
+	"median_roughness":" 0.020",
+	"max_roughness":" 4.014",
+	"pitch_salience":"  0.2844",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"55.368"
+			}
+		]
+	}
+	,
+	{
+	"filename":"MatchSample.wav",
+	"label":"MatchSample",
+	"keywords":
+		[
+			{
+				"keyword":"Match"
+			}
+		],
+	"source":"Match",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"495206",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   1.3628",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-32.693",
+				"peak":" 0.000"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-31.088",
+				"peak":" 0.000"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"6401.876",
+	"spectral_spread":"3927.869",
+	"median_loudness":" 5.687",
+	"max_loudness":"44.912",
+	"median_sharpness":" 1.700",
+	"max_sharpness":" 2.364",
+	"median_roughness":" 0.124",
+	"max_roughness":" 3.399",
+	"pitch_salience":"  0.2106",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"1.423"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Scissors1_53_3in.WAV",
+	"label":"Scissors1_53_3in",
+	"keywords":
+		[
+			{
+				"keyword":"Scissors"
+			}
+		],
+	"source":"Scissors 53 dB at 3in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1948046",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   6.3974",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-40.923",
+				"peak":"-3.445"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-39.323",
+				"peak":"-4.903"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"4785.675",
+	"spectral_spread":"4406.340",
+	"median_loudness":" 3.350",
+	"max_loudness":"26.429",
+	"median_sharpness":" 1.887",
+	"max_sharpness":" 2.723",
+	"median_roughness":" 0.047",
+	"max_roughness":" 4.304",
+	"pitch_salience":"  0.3761",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"6.948"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Scissors2_50_3in.wav",
+	"label":"Scissors2_50_3in",
+	"keywords":
+		[
+			{
+				"keyword":"Scissors"
+			}
+		],
+	"source":"Scissors 50dB at 3in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"587564",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   1.7933",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-36.813",
+				"peak":"-7.775"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-36.451",
+				"peak":"-4.582"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"3120.729",
+	"spectral_spread":"3752.487",
+	"median_loudness":" 5.176",
+	"max_loudness":"24.257",
+	"median_sharpness":" 2.080",
+	"max_sharpness":" 2.270",
+	"median_roughness":" 0.183",
+	"max_roughness":" 4.259",
+	"pitch_salience":"  0.5448",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"1.948"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Shovel_Driveway_4ft.WAV",
+	"label":"Shovel_Driveway_4ft",
+	"keywords":
+		[
+			{
+				"keyword":"Shovel Driveway"
+			}
+		],
+	"source":"Shoveling Driveway at 4ft",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"5058164",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  17.3453",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-33.965",
+				"peak":"-9.511"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-29.394",
+				"peak":"-6.003"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"2898.891",
+	"spectral_spread":"2574.173",
+	"median_loudness":"10.201",
+	"max_loudness":"37.039",
+	"median_sharpness":" 1.690",
+	"max_sharpness":" 2.132",
+	"median_roughness":" 0.034",
+	"max_roughness":" 2.204",
+	"pitch_salience":"  0.2844",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"18.800"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Shovel_Snow_65_3ft.WAV",
+	"label":"Shovel_Snow_65_3ft",
+	"keywords":
+		[
+			{
+				"keyword":"Shovel Snow"
+			}
+		],
+	"source":"Shoveling Snow 65dB at 3ft",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"9023924",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  31.2517",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-40.935",
+				"peak":"-6.051"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-38.948",
+				"peak":"-2.079"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"3735.026",
+	"spectral_spread":"3377.400",
+	"median_loudness":" 4.719",
+	"max_loudness":"36.633",
+	"median_sharpness":" 1.669",
+	"max_sharpness":" 2.415",
+	"median_roughness":" 0.023",
+	"max_roughness":" 3.417",
+	"pitch_salience":"  0.3293",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"33.996"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Stapler1_57_8in.WAV",
+	"label":"Stapler1_57_8in",
+	"keywords":
+		[
+			{
+				"keyword":"Stapler"
+			}
+		],
+	"source":"Stapler 57dB at 8in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"488492",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   1.3024",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-35.675",
+				"peak":"-5.374"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-34.920",
+				"peak":"-7.620"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"2051.624",
+	"spectral_spread":"3049.959",
+	"median_loudness":" 0.494",
+	"max_loudness":"32.086",
+	"median_sharpness":" 1.640",
+	"max_sharpness":" 2.025",
+	"median_roughness":" 0.000",
+	"max_roughness":" 4.576",
+	"pitch_salience":"  0.2602",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"1.357"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Stapler2_59_12in.WAV",
+	"label":"Stapler2_59_12in",
+	"keywords":
+		[
+			{
+				"keyword":"Stapler"
+			}
+		],
+	"source":"Stapler 59dB at 12in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"807488",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   2.4914",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-33.332",
+				"peak":"-4.854"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-32.934",
+				"peak":"-5.323"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"2534.885",
+	"spectral_spread":"3032.837",
+	"median_loudness":" 0.789",
+	"max_loudness":"33.456",
+	"median_sharpness":" 1.693",
+	"max_sharpness":" 2.082",
+	"median_roughness":" 0.000",
+	"max_roughness":" 3.123",
+	"pitch_salience":"  0.1697",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"2.654"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Stapler3_60_6in.WAV",
+	"label":"Stapler3_60_6in",
+	"keywords":
+		[
+			{
+				"keyword":"Stapler"
+			}
+		],
+	"source":"Stapler 60dB at 6in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"378422",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   1.0236",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0001",
+				"level":"-32.943",
+				"peak":"-5.401"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0001",
+				"level":"-33.964",
+				"peak":"-8.292"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"3441.747",
+	"spectral_spread":"2969.353",
+	"median_loudness":" 0.498",
+	"max_loudness":"33.728",
+	"median_sharpness":" 1.660",
+	"max_sharpness":" 2.144",
+	"median_roughness":" 0.000",
+	"max_roughness":" 4.358",
+	"pitch_salience":"  0.2716",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"1.083"
+			}
+		]
+	}
+	,
+	{
+	"filename":"SuperMarket1_69_30ft.WAV",
+	"label":"SuperMarket1_69_30ft",
+	"keywords":
+		[
+			{
+				"keyword":"Supermarket"
+			}
+		],
+	"source":"Supermarket 69dB at 30ft",
+	"isolation":"2",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"19897964",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  69.0550",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-30.493",
+				"peak":"-4.023"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-29.460",
+				"peak":"-3.315"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"1140.652",
+	"spectral_spread":"1174.058",
+	"median_loudness":"13.681",
+	"max_loudness":"37.462",
+	"median_sharpness":" 1.463",
+	"max_sharpness":" 1.844",
+	"median_roughness":" 0.032",
+	"max_roughness":" 0.317",
+	"pitch_salience":"  0.3204",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"75.029"
+			}
+		]
+	}
+	,
+	{
+	"filename":"SuperMarket2_69_30ft.WAV",
+	"label":"SuperMarket2_69_30ft",
+	"keywords":
+		[
+			{
+				"keyword":"Supermarket"
+			}
+		],
+	"source":"Supermarket 69dB at 30ft",
+	"isolation":"2",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"5085740",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  17.6442",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-24.228",
+				"peak":"-10.608"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-24.106",
+				"peak":"-4.577"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"1029.614",
+	"spectral_spread":"1679.882",
+	"median_loudness":"18.214",
+	"max_loudness":"34.996",
+	"median_sharpness":" 1.531",
+	"max_sharpness":" 1.981",
+	"median_roughness":" 0.041",
+	"max_roughness":" 0.563",
+	"pitch_salience":"  0.2393",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"19.134"
+			}
+		]
+	}
+	,
+	{
+	"filename":"SuperMarket3_69_30ft.WAV",
+	"label":"SuperMarket3_69_30ft",
+	"keywords":
+		[
+			{
+				"keyword":"Supermarket"
+			}
+		],
+	"source":"Supermarket 69dB at 30ft",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"39587084",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":" 137.3819",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-28.670",
+				"peak":"-0.299"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-27.835",
+				"peak":" 0.000"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"1543.896",
+	"spectral_spread":"2374.589",
+	"median_loudness":"17.505",
+	"max_loudness":"48.733",
+	"median_sharpness":" 1.496",
+	"max_sharpness":" 2.361",
+	"median_roughness":" 0.045",
+	"max_roughness":" 1.720",
+	"pitch_salience":"  0.4111",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+		],
+	}
+	,
+	{
+	"filename":"Tennis1.WAV",
+	"label":"Tennis1",
+	"keywords":
+		[
+			{
+				"keyword":"Tennis match"
+			}
+		],
+	"source":"Tennis match",
+	"isolation":"2",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"6917276",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  24.0073",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-26.122",
+				"peak":"-1.667"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-25.760",
+				"peak":"-1.676"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 138.343",
+	"spectral_spread":" 343.959",
+	"median_loudness":" 8.810",
+	"max_loudness":"35.949",
+	"median_sharpness":" 1.011",
+	"max_sharpness":" 1.683",
+	"median_roughness":" 0.086",
+	"max_roughness":" 4.514",
+	"pitch_salience":"  0.0311",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"26.120"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Water_Bubble1_54_4in.WAV",
+	"label":"Water_Bubble1_54_4in",
+	"keywords":
+		[
+			{
+				"keyword":"Water bubble"
+			}
+		],
+	"source":"Water Bubble 54dB at 4in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"535208",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   1.4879",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-37.674",
+				"peak":"-17.826"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-39.910",
+				"peak":"-20.502"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 809.472",
+	"spectral_spread":"1839.180",
+	"median_loudness":" 1.029",
+	"max_loudness":"10.473",
+	"median_sharpness":" 1.537",
+	"max_sharpness":" 2.795",
+	"median_roughness":" 0.000",
+	"max_roughness":" 1.242",
+	"pitch_salience":"  0.3023",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"1.545"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Water_Bubble2_54_4in.WAV",
+	"label":"Water_Bubble2_54_4in",
+	"keywords":
+		[
+			{
+				"keyword":"Water bubble"
+			}
+		],
+	"source":"Water bubble 54dB at 4in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"468818",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   1.3031",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-32.000",
+				"peak":"-13.578"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-38.491",
+				"peak":"-21.606"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 284.232",
+	"spectral_spread":" 651.346",
+	"median_loudness":" 1.264",
+	"max_loudness":"12.694",
+	"median_sharpness":" 1.507",
+	"max_sharpness":" 2.837",
+	"median_roughness":" 0.000",
+	"max_roughness":" 1.053",
+	"pitch_salience":"  0.3040",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"1.373"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Water_Bubble3_64_4in.WAV",
+	"label":"Water_Bubble3_64_4in",
+	"keywords":
+		[
+			{
+				"keyword":"Water bubble"
+			}
+		],
+	"source":"Water bubble 64dB at 4in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"660770",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   1.8028",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-28.350",
+				"peak":"-9.579"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-26.142",
+				"peak":"-7.732"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 529.662",
+	"spectral_spread":" 368.592",
+	"median_loudness":" 3.330",
+	"max_loudness":"16.396",
+	"median_sharpness":" 1.261",
+	"max_sharpness":" 2.262",
+	"median_roughness":" 0.123",
+	"max_roughness":" 1.206",
+	"pitch_salience":"  0.5623",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"1.901"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Water_Bubble4_60_4in.WAV",
+	"label":"Water_Bubble4_60_4in",
+	"keywords":
+		[
+			{
+				"keyword":"Water bubble"
+			}
+		],
+	"source":"Water bubble 60dB at 4in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"3012944",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  10.0626",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-35.067",
+				"peak":"-15.987"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-34.432",
+				"peak":"-14.838"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 703.778",
+	"spectral_spread":" 628.119",
+	"median_loudness":" 7.875",
+	"max_loudness":"17.787",
+	"median_sharpness":" 1.155",
+	"max_sharpness":" 2.030",
+	"median_roughness":" 0.640",
+	"max_roughness":" 1.729",
+	"pitch_salience":"  0.4652",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"10.819"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Water_Bubble5_62_4in.WAV",
+	"label":"Water_Bubble5_62_4in",
+	"keywords":
+		[
+			{
+				"keyword":"Water bubble"
+			}
+		],
+	"source":"Water bubble 62dB at 4in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1125194",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   3.6407",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-33.401",
+				"peak":"-16.879"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-34.329",
+				"peak":"-17.128"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 472.859",
+	"spectral_spread":" 460.599",
+	"median_loudness":" 7.403",
+	"max_loudness":"15.086",
+	"median_sharpness":" 1.069",
+	"max_sharpness":" 2.161",
+	"median_roughness":" 0.314",
+	"max_roughness":" 1.162",
+	"pitch_salience":"  0.4705",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"3.927"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Water_Bubble6_54_4in.wav",
+	"label":"Water_Bubble6_54_4in",
+	"keywords":
+		[
+			{
+				"keyword":"Water bubble"
+			}
+		],
+	"source":"Water bubble 54dB at 4in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"373304",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   0.9923",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-38.542",
+				"peak":"-16.278"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-39.623",
+				"peak":"-17.093"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"1018.194",
+	"spectral_spread":"1831.641",
+	"median_loudness":" 1.550",
+	"max_loudness":"16.866",
+	"median_sharpness":" 1.676",
+	"max_sharpness":" 2.247",
+	"median_roughness":" 0.002",
+	"max_roughness":" 0.860",
+	"pitch_salience":"  0.2354",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"0.978"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Water_Pour1_63_4in.WAV",
+	"label":"Water_Pour1_63_4in",
+	"keywords":
+		[
+			{
+				"keyword":"Water pouring"
+			}
+		],
+	"source":"Water pouring 63dB at 4in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1900064",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   5.9687",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-38.431",
+				"peak":"-8.422"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-38.988",
+				"peak":"-9.516"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"1841.308",
+	"spectral_spread":"1970.519",
+	"median_loudness":" 4.194",
+	"max_loudness":"31.683",
+	"median_sharpness":" 1.795",
+	"max_sharpness":" 3.146",
+	"median_roughness":" 0.307",
+	"max_roughness":" 2.208",
+	"pitch_salience":"  0.3793",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"6.467"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Water_Pour2_50_4in.WAV",
+	"label":"Water_Pour2_50_4in",
+	"keywords":
+		[
+			{
+				"keyword":"Water pouring"
+			}
+		],
+	"source":"Water pouring 50dB at 4in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1063196",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   3.3772",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-51.059",
+				"peak":"-23.057"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-50.368",
+				"peak":"-22.052"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"3491.879",
+	"spectral_spread":"3210.377",
+	"median_loudness":" 2.445",
+	"max_loudness":"10.462",
+	"median_sharpness":" 1.823",
+	"max_sharpness":" 2.811",
+	"median_roughness":" 0.201",
+	"max_roughness":" 1.696",
+	"pitch_salience":"  0.4678",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"3.622"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Water_Pour3_50_4in.WAV",
+	"label":"Water_Pour3_50_4in",
+	"keywords":
+		[
+			{
+				"keyword":"Water pouring"
+			}
+		],
+	"source":"Water pouring 50dB at 4in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1604564",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   5.0778",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-44.460",
+				"peak":"-14.666"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-42.743",
+				"peak":"-12.357"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"3976.382",
+	"spectral_spread":"3295.369",
+	"median_loudness":" 4.293",
+	"max_loudness":"16.827",
+	"median_sharpness":" 1.859",
+	"max_sharpness":" 3.116",
+	"median_roughness":" 0.349",
+	"max_roughness":" 1.269",
+	"pitch_salience":"  0.4762",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"5.420"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Water_Pour4_52_4in.WAV",
+	"label":"Water_Pour4_52_4in",
+	"keywords":
+		[
+			{
+				"keyword":"Water pouring"
+			}
+		],
+	"source":"Water pouring 52dB at 4in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"1434578",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   4.5665",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-46.984",
+				"peak":"-12.953"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-44.864",
+				"peak":"-9.649"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"3428.416",
+	"spectral_spread":"3266.332",
+	"median_loudness":" 3.913",
+	"max_loudness":"14.610",
+	"median_sharpness":" 1.807",
+	"max_sharpness":" 4.714",
+	"median_roughness":" 0.294",
+	"max_roughness":" 1.060",
+	"pitch_salience":"  0.4518",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"4.946"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Windshieldwipers1_62_1ft.WAV",
+	"label":"Windshieldwipers1_62_1ft",
+	"keywords":
+		[
+			{
+				"keyword":"Windshield wipers"
+			}
+		],
+	"source":"Windshield wipers 62dB at 1ft",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"7950044",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"  27.5394",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-27.072",
+				"peak":"-8.905"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-28.220",
+				"peak":"-10.897"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 139.805",
+	"spectral_spread":" 326.164",
+	"median_loudness":" 5.471",
+	"max_loudness":"12.323",
+	"median_sharpness":" 1.241",
+	"max_sharpness":" 1.528",
+	"median_roughness":" 0.031",
+	"max_roughness":" 0.484",
+	"pitch_salience":"  0.0136",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"29.834"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Zipper1_51_3in.WAV",
+	"label":"Zipper1_51_3in",
+	"keywords":
+		[
+			{
+				"keyword":"Zipper"
+			}
+		],
+	"source":"Zipper 51dB at 3in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"300194",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   0.7532",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-24.900",
+				"peak":"-8.045"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"-0.0000",
+				"level":"-29.602",
+				"peak":"-11.151"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":" 520.374",
+	"spectral_spread":"1277.521",
+	"median_loudness":" 1.431",
+	"max_loudness":"27.304",
+	"median_sharpness":" 1.597",
+	"max_sharpness":" 1.928",
+	"median_roughness":" 0.000",
+	"max_roughness":" 0.196",
+	"pitch_salience":"  0.4430",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"0.768"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Zipper2_51_3in.WAV",
+	"label":"Zipper2_51_3in",
+	"keywords":
+		[
+			{
+				"keyword":"Zipper"
+			}
+		],
+	"source":"Zipper 51dB at 3in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"341954",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   0.9108",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-37.302",
+				"peak":"-15.219"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-38.834",
+				"peak":"-19.350"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"1172.815",
+	"spectral_spread":"1910.736",
+	"median_loudness":" 3.323",
+	"max_loudness":"19.169",
+	"median_sharpness":" 1.553",
+	"max_sharpness":" 1.885",
+	"median_roughness":" 0.055",
+	"max_roughness":" 0.308",
+	"pitch_salience":"  0.4029",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"0.946"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Zipper3_55_5in.WAV",
+	"label":"Zipper3_55_5in",
+	"keywords":
+		[
+			{
+				"keyword":"Zipper"
+			}
+		],
+	"source":"Zipper 55dB at 5in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"543644",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   1.6141",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.0000",
+				"level":"-26.267",
+				"peak":"-10.480"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-24.865",
+				"peak":"-6.731"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"1161.325",
+	"spectral_spread":"1395.781",
+	"median_loudness":"20.553",
+	"max_loudness":"36.196",
+	"median_sharpness":" 1.612",
+	"max_sharpness":" 1.916",
+	"median_roughness":" 0.033",
+	"max_roughness":" 0.379",
+	"pitch_salience":"  0.4265",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"1.736"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Zipper4_58_4in.wav",
+	"label":"Zipper4_58_4in",
+	"keywords":
+		[
+			{
+				"keyword":"Zipper"
+			}
+		],
+	"source":"Zipper 58dB at 4in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"274964",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   0.6715",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0000",
+				"level":"-24.754",
+				"peak":"-8.808"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0000",
+				"level":"-26.574",
+				"peak":"-11.742"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"1459.728",
+	"spectral_spread":"1176.862",
+	"median_loudness":" 3.980",
+	"max_loudness":"35.340",
+	"median_sharpness":" 1.567",
+	"max_sharpness":" 1.966",
+	"median_roughness":" 0.028",
+	"max_roughness":" 0.232",
+	"pitch_salience":"  0.4988",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"0.695"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Zipper5_55_5in.WAV",
+	"label":"Zipper5_55_5in",
+	"keywords":
+		[
+			{
+				"keyword":"Zipper"
+			}
+		],
+	"source":"Zipper 55dB at 5in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"507536",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   1.4415",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0003",
+				"level":"-35.576",
+				"peak":"-15.306"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0001",
+				"level":"-32.925",
+				"peak":"-12.028"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"1799.454",
+	"spectral_spread":"3037.982",
+	"median_loudness":" 1.766",
+	"max_loudness":"21.337",
+	"median_sharpness":" 1.743",
+	"max_sharpness":" 2.095",
+	"median_roughness":" 0.002",
+	"max_roughness":" 0.315",
+	"pitch_salience":"  0.3070",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"1.521"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Zipper6_58_5in.WAV",
+	"label":"Zipper6_58_5in",
+	"keywords":
+		[
+			{
+				"keyword":"Zipper"
+			}
+		],
+	"source":"Zipper 58dB at 5in",
+	"isolation":"1",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"298904",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"24",
+	"duration":"   0.7555",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"-0.0001",
+				"level":"-25.135",
+				"peak":"-7.436"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.0002",
+				"level":"-26.106",
+				"peak":"-4.910"
+			}
+		],
+	"clipped_samples":"0",
+	"spectral_centroid":"3319.143",
+	"spectral_spread":"3625.404",
+	"median_loudness":" 2.503",
+	"max_loudness":"39.332",
+	"median_sharpness":" 1.727",
+	"max_sharpness":" 2.456",
+	"median_roughness":" 0.017",
+	"max_roughness":" 0.743",
+	"pitch_salience":"  0.3225",
+	"pitch":"0",
+	"autocorrelation_peaks":
+		[
+			{
+				"frequency":"0.788"
+			}
+		]
+	}
+	,
+	{
+	"filename":"Casino1.WAV",
+	"label":"Casino1",
+	"keywords":
+		[
+			{
+				"keyword":"Casino"
+			}
+		],
+	"source":"Casino",
+	"isolation":"2",
+	"origin":"The file was obtained from Curtis Settino",
+	"submittee":"Brian Gygi (bgygi@ebire.org)",
+	"filesize":"106264388",
+	"sampling_rate":"48000.00",
+	"quantization_depth":"32",
+	"duration":"368.973",
+	"channels":
+		[
+			{
+				"description":"Stereo Left",
+				"dc_offset":"0.000",
+				"level":"-24.38",
+				"peak":"-1.15"
+			},
+			{
+				"description":"Stereo Right",
+				"dc_offset":"0.000",
+				"level":"-23.28",
+				"peak":"-1.82"
+			}
+		]
+	}
+]

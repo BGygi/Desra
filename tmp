@@ -1,0 +1,190 @@
+29c29,30
+<             $result = DataManager::DBQuery($sql);
+---
+>             $result = DataManager::dbQuery($sql);
+> 
+33a35
+>     $result = DataManager::DBQuery($sql);
+114,115c116,124
+<     
+<     
+---
+>     $php_handlers = array();
+>     $php_handler = new PHP_handler;
+>     $php_handler_ids = $php_handler->FindByAttribute('page_id',$Page->GetID());
+>     foreach($php_handler_ids as $php_handler_id){
+>         $tph = new PHP_handler($php_handler_id);
+>         $tph->fields = $tph->GetAllFields();
+>         array_push($php_handlers,$tph);
+>     }
+>     $smarty->assign("php_handlers",$php_handlers);
+147c156
+<    //     $user_type = $pst->GetField('user_type');
+---
+>       //  $user_type = $pst->GetField('user_type');
+152c161
+<         if($_SESSION['auth'] == crypt($_SESSION['username'],SESSION_AUTH_KEY)&&($_SESSION['user_type']=='developer')&&($pst->GetField('smarty_template_id')!='68')){
+---
+>         if($_SESSION['auth'] == crypt($_SESSION['username'],SESSION_AUTH_KEY)&&($_SESSION['user_type']=='developer')&&($pst->GetField('smarty_template_id')!='68')&&($pst->GetField('smarty_template_id')!='98')){
+156c165,167
+<                 $newlink .= "</a></div>";
+---
+>                 $newlink .= "</a>";
+>           //      $newlink .= is_string($code);
+>                 $newlink .= "</div>";
+159,160c170,173
+<         if(strlen($newlink)){
+<              $$pagevar_string .= $newlink;
+---
+>         if( ( ( !strlen( $pst->GetField('user_type') ) ) || ($pst->GetField('user_type')==$_SESSION['user_type']))) {
+>              if(strlen($newlink)){
+>                   $$pagevar_string .= $newlink;
+>              }
+167,197c180,181
+<         $$pagevar_string .= $fst;
+<     }
+< /*
+<     $sql = "SELECT * FROM pages_smarty_templates";
+<     $sql .= " WHERE ISNULL(textblock_description)";
+<     $sql .= " AND page_id = '".$Page->GetId()."'";
+<     $result = DataManager::DBQuery($sql);
+<     while($row = $result->fetch_array(MYSQLI_BOTH)){
+<         $pst = new Page_Smarty_template($row['id']);
+<         
+<         $st = new Smarty_template($pst->GetField('smarty_template_id'));
+<         $pagevar_string = $pst->GetField('pagevar');
+<         $user_type = $pst->GetField('user_type');
+<         $filename = $st->GetField('name');
+<         $code = $st->GetField('code');
+<         $newlink=null;
+<         
+<         if($_SESSION['auth'] == crypt($_SESSION['username'],SESSION_AUTH_KEY)&&($_SESSION['user_type']=='developer')&&($pst->GetField('smarty_template_id')!='68')){
+<      
+<                 $newlink = "<div class='auth'>template <a class='devlink'  href='editor.php?classname=smarty_template&id=".$pst->GetField('smarty_template_id')."'>";
+<                 $newlink .= $pst->GetField('smarty_template_id');
+<                 $newlink .= "</a></div>";
+<                 
+<         }
+<         if(strlen($newlink)){
+<              $$pagevar_string .= $newlink;
+<         }
+<         if(strlen($code)){
+<             $fst = $smarty->fetch("db:".$st->GetField('name'));
+<         } else {
+<             $fst = $smarty->fetch($st->GetField('path').$st->GetField('name'));
+---
+>         if( ( ( !strlen( $pst->GetField('user_type') ) ) || ($pst->GetField('user_type')==$_SESSION['user_type']))) {
+>             $$pagevar_string .= $fst;
+199d182
+<         $$pagevar_string .= $fst;
+201,219c184,185
+< */
+< 
+<     // Sample procedure for assigning textblocks 
+<     // First create the variable name and assign the textblock objects
+< /*
+<     $page_banners = getTextblocksLike('page_banner');
+<     // Smarty assignments for variables used
+<     // in the textblocks_section.inc template
+<     $smarty->assign('section_name','page_banners');
+<     $smarty->assign('section_loop',$page_banners);
+<     // Smarty fetch command parses the template and variables
+<     // Parsed code assigned to the variable that
+<     // determines where this is to be used
+<     $alpha = $smarty->fetch('./inc/textblocks_section.inc');
+< */
+< // translating that into a loop through the page vars.          
+< //    $textblock_contents = array();
+< 
+<    foreach($pagevars as $var){
+---
+>     // 
+>     foreach($pagevars as $var){
+226c192,193
+<         $sql .= " `textblocks`.`content` AS 'textblock_content' ";
+---
+>         $sql .= " `textblocks`.`content` AS 'textblock_content', ";
+>         $sql .= " `pages_smarty_templates`.`user_type` AS 'template_user_type' ";
+235c202,204
+<         $result = DataManager::DBQuery($sql);
+---
+>         $db = new DB;
+>         $stmt = $db->prepare($sql);
+>        // $result = DataManager::DBQuery($sql);
+241,256c210,226
+<         if(is_object($result)){
+< 
+<             while($row = $result->fetch_array(MYSQLI_ASSOC) ){
+<                  $textblocks_like[$row['textblock_id']]=$row['textblock_description'];
+<                  $textblocks_contents[$row['textblock_id']] = $row['textblock_content'];
+<          //        $it_paths[$row['textblock_id']]= $row['smarty_template_path'];
+<                 if(isset($row['code']) && strlen($row['code'])){
+<                    //  $it_filenames[$row['textblock_id']]= "db:";
+<                    $it_paths[$row['textblock_id']]= "";
+<                      $it_filenames[$row['textblock_id']] = "db:". $row['smarty_template_filename'];
+<                     $it_ids[$row['textblock_id']] = $row['smarty_template_id'];
+<                     
+<                 } else {
+<                     $it_paths[$row['textblock_id']]= $row['smarty_template_path'];
+<                     $it_filenames[$row['textblock_id']]=$row['smarty_template_filename'];
+<                     $it_ids[$row['textblock_id']] = $row['smarty_template_id'];
+---
+>         $stmt->execute();
+>             while($row = $stmt->fetch(PDO::FETCH_ASSOC) ){
+>                 if(!strlen($row['template_user_type'])|| $row['template_user_type'] == $_SESSION['user_type'] ){
+>                     $textblocks_like[$row['textblock_id']]=$row['textblock_description'];
+>                     $textblocks_contents[$row['textblock_id']] = $row['textblock_content'];
+>              //        $it_paths[$row['textblock_id']]= $row['smarty_template_path'];
+>                     if(isset($row['code']) && strlen($row['code'])){
+>                        //  $it_filenames[$row['textblock_id']]= "db:";
+>                         $it_paths[$row['textblock_id']]= "";
+>                         $it_filenames[$row['textblock_id']] = "db:". $row['smarty_template_filename'];
+>                         $it_ids[$row['textblock_id']] = $row['smarty_template_id'];
+>                         
+>                     } else {
+>                         $it_paths[$row['textblock_id']]= $row['smarty_template_path'];
+>                         $it_filenames[$row['textblock_id']]=$row['smarty_template_filename'];
+>                         $it_ids[$row['textblock_id']] = $row['smarty_template_id'];
+>                     }
+260d229
+<         }
+266d234
+<       
+269c237
+<                 $newlink = "template <a class='devlink' href='editor.php?classname=smarty_template&id=".$it_ids[$key]."'>";
+---
+>                 $newlink = "<div class=\"auth\">template <a class='devlink' href='editor.php?classname=smarty_template&id=".$it_ids[$key]."'>";
+271c239
+<                 $newlink .= "</a>";
+---
+>                 $newlink .= "</a></div>";
+275,276c243,245
+<      
+<             $textblock_content[$var] = $section_textblocks;
+---
+>             
+>          //   $textblock_content[$var] = $section_textblocks;
+>             
+307,308c276
+<         $smarty->assign('session_vars',$_SESSION);
+<       //  $smarty->debugging=true;
+---
+>      //   $smarty->assign('session_vars',$_SESSION);
+315c283
+<         
+---
+>      //   $smarty->clear_compiled_tpl();
+317d284
+<            
+378c345
+<     $description = $str . $description . $str;
+---
+>     $description =  $description . $str;
+421c388
+<                     $newlink .= "link <a href='editor.php?classname=link&id=".$link->GetID()."'>";
+---
+>                     $newlink .= "<div class=\"auth\">link <a href='editor.php?classname=link&id=".$link->GetID()."'>";
+423c390
+<                     $newlink .= "</a> ";
+---
+>                     $newlink .= "</a></div>";
