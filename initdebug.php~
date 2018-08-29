@@ -26,13 +26,13 @@ include("/data/32/1/102/102/1102754/user/1155640/cgi-bin/speechandhearing/config
             $sql = "SELECT `id` FROM `pages` ";
             $sql .= "WHERE `filename` = '".$filename."' ";
        //     $sql .= "AND `path` = '".$path."'"
-            $result = DataManager::dbQuery($sql);
+            //$result = DataManager::dbQuery($sql);
 
             $row = $result->fetch_row();
             $Page = new Page($row[0]);
         }
     }
-    $result = DataManager::DBQuery($sql);
+    //$result = DataManager::DBQuery($sql);
     $smarty = new Generic_Smarty;
 // put these function somewhere in your application
 // note - taken from Smarty.org docs

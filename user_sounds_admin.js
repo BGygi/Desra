@@ -2,21 +2,12 @@ var i = 0;
 function accordionFunction(obj){
     i++;
     var mySound = this.data[obj.row].sound;
-    // mp3s and wavs are actually arrays but we
-    // only use the first one
     var myMP3 = this.data[obj.row].sound.mp3_files[0];
     var myWav = this.data[obj.row].sound.wav_files[0];
-    
     var myKeywords = this.data[obj.row].sound.keywords;
-    if($type(myWav) != "object"){
-        myWav = {
-            "fields": {
-                "filename":null
-            }
-        };
-    }
     options = {
         'swfLocation': './swf/MooSound.swf',
+
         'onRegister' : function(e){
             this.el = new Element('div',{
                     'styles' : {
@@ -31,7 +22,7 @@ function accordionFunction(obj){
                     'width' : '50px',
                     'padding-top' : '5px',
                     'float' : 'left'
-                }         
+                }          
             }).inject(this.el);
             this.playEl       = new Element('img', {'class':'play',  src:'images/16-play.png',id:'play'+i }).inject(this.controls);
             this.stopEl       = new Element('img', {'class':'stop',  src:'images/16-stop.png',id:'stop'+i }).inject(this.controls);
@@ -73,7 +64,7 @@ function accordionFunction(obj){
             if ( position.round()/duration.round() * 100 > 99 ){
                     this.stop();
             }
-         },
+        },
  
         'onID3': function(key, value) {
             if (key == "TIT2") { this.title.set('text', value); }
@@ -87,29 +78,17 @@ function accordionFunction(obj){
     
     }// end of options
      
-//    var mp3_player = "./mp3_playback.php?sid=" + mySound.fields.id; 
+     
     Playlist.loadSound( myMP3.fields.path + myMP3.fields.filename , options );
-//       Playlist.loadSound( mp3_player , options );
-    var soundInfoWrapper = new Element('div',{
-        'class' : 'soundInfoWrapper',
-    }).inject(obj.parent);
-    var actionWrapper = new Element('div',{
-        'id': 'actionWrapper_'+mySound.fields.id,
-        'styles':{
-            'width':'540px',
-            'background-color':'#ccc'
-        }
-    }).inject(obj.parent);
-    var rateLink = new Element('a',{
-        'styles':{
-            'width':'200px'
-        },
-        'text' : 'Rate the sound, '+mySound.fields.description,
-        'href' : 'rate_sounds.php?sid='+mySound.fields.id,
-  //  }).inject(actionWrapper);
-    }) // don't inject link, can't get this to work in IE
 
-     var myMask = new Mask();
+    soundInfoWrapper = new Element('div',{
+        'class' : 'soundInfoWrapper',
+        'styles' : {
+            'border' : '1px solid #ccc',
+            'width' : '520px'
+        
+        },
+    }).inject(obj.parent);
 
     if( $type(myMP3.fields) == 'object' ){
         mp3_container = new Element('div',{
@@ -118,11 +97,10 @@ function accordionFunction(obj){
                     'float':'right',
             },
         }).inject(soundInfoWrapper);       
+
         myHeader = new Element('h3',{
-                 html : 'MP3 File',
-                //      "html" : myMP3.fields.original_filename,
-               //     'html' : get(myMP3.fields.original_filename),
-                 'class' : 'soundInfoCol',
+                    html : 'MP3 File Info',
+                    'class' : 'soundInfoCol',
         }).inject(mp3_container,'top');
     
         mp3_info = new Element('div',{
@@ -130,40 +108,19 @@ function accordionFunction(obj){
                 'font-size' : 'inherit'
             }
         }).inject(mp3_container);
-
-     /* cut down props since in show sound info 
         var mp3_props = $H({'Path': myMP3.fields.path ,'Byterate' : myMP3.fields.wave_byterate,'Framerate': myMP3.fields.wave_framerate ,'Wave_id': myMP3.fields.wave_id , 'Compression' : myMP3.fields.wave_compression, 'Filesize': myMP3.fields.filesize});
-    */
-        this.el = new Element('div',{
-                'html' : myMP3.fields.original_filename,
-                styles : {
-                    'font-size' : 'inherit'
-                }
-        }).inject(mp3_container);
-        var mp3_props = $H({'Filesize': myMP3.fields.filesize ,'Downloads': myMP3.fields.downloads});
-        if ( $type(mp3_props.Downloads) != "string"){
-            mp3_props.Downloads = "0";
-        } 
+
         mp3_props.each(function(value,key){ 
             this.el = new Element('div',{
-                'html' : key + " : "+value,
-                'styles' : {
+                html : key + " : "+value,
+                styles : {
                     'font-size' : 'inherit'
                 }
             }).inject(mp3_container);
         
         },this);
-        myDL = new Element('a',{
-                "html" : "download",
-                "href" : $empty,
-                "events" : {
-                    "click" : function(ev){
-                        ev.stop();
-                        window.location = "mp3_file_download.php?mid=" + myMP3.fields.id;
-                    }
-                
-                }
-        }).inject(mp3_container);
+         
+        if($type(myKeywords) == 'array'){
             keyword_wrapper = new Element('div',{
                 'class' : 'soundInfoCol',               
                 styles : {
@@ -171,70 +128,35 @@ function accordionFunction(obj){
                 }
             }).inject(soundInfoWrapper);
                    
-        myWavDiv = new Element('div',{
-            'class':'soundInfoCol',
-            'styles':{
-                'margin-left':'185px',
-                'margin-right':'175px',
-                'width' : '165px'
-            }
-        }).inject(soundInfoWrapper);
-    if($defined(myWav)){
-   /*
-               var msg = myWav.fields.original_filename;
-               msg += "<br />" + myWav.fields.filesize;
-               msg += "<br />" + myWav.fields.duration;
+            myWavDiv = new Element('div',{
+                'class':'soundInfoCol',
+                'styles':{
+                    'margin-left':'175px',
+                    'margin-right':'175px'
+                }
+            }).inject(soundInfoWrapper);
+            if($defined(myWav)){
+               msg = myWav.fields.filename;
             } else {
-               var msg = "No associated .wav file.";
+               msg = "No associated .wav file.";
             }
             myWavDiv.set('html',msg);
-    */
-        this.el = new Element('div',{
-            'html' : myWav.fields.original_filename,
-            styles : {
-                'font-size' : 'inherit'
-            }
-        }).inject(myWavDiv);
-        var wav_props = $H({'Filesize': myWav.fields.filesize ,'Duration': myWav.fields.duration,'Downloads': myWav.fields.downloads});
-        if ($type(wav_props.Downloads)!= "string"){
-            wav_props.Downloads = "0";
-        }
-        wav_props.each(function(value,key){ 
-            this.el = new Element('div',{
-                html : key + " : "+value,
-                styles : {
-                'font-size' : 'inherit'
-            }
-            }).inject(myWavDiv);
-    
-        },this); 
-        myDL = new Element('a',{
-            "html" : "download",
-            "href" : $empty,
-            "styles" : {
-                "display" : "block",
-                "width" : "120px"
-            },
-            "events" : {
-                "click" : function(ev){
-                    ev.stop();
-                    location = "wav_file_download.php?wid=" + myWav.fields.id;
-                }
-            
-            }
-        }).inject(myWavDiv);
-         /*
             addWav = new Element('a',{
                 'html': '<p>Add/Replace Wav File</p>',
                 'href' : 'upload_wav_file.php?sid='+mySound.fields.id,
                 'class': 'soundInfoCol'
             }).inject(myWavDiv);
-         */
-        wavHeader = new Element('h3',{
-            'html' : "Wav File",
-            'class' : 'soundInfoCol',            
-         }).inject(myWavDiv,'top');
-      } // end of if($defined(myWav))
+            wavHeader = new Element('h3',{
+                'html' : "Wav File Info",
+                styles : {
+                        'font-size' : '11px',
+                        'background-color' : '#333',
+                        'color':'#eee',
+                        'border':'0px solid #eee',
+                        'width':'165px',
+                        'text-align':'center'
+                    }            
+             }).inject(myWavDiv,'top');
             keyword_container = new Element('ul',{
                 'class' : 'kw_ul',
                 styles : {
@@ -297,323 +219,174 @@ function accordionFunction(obj){
 
                 }
                 
-               
+                myX = new Element('img',{
+                    'styles' : {
+                        'float' : 'right',
+                        'cursor' : 'pointer'
+                    },
+                    'src' : './images/12-em-cross.png',
+                    events : {
+                        'click' : function(event){
+                            myRequest = new Request.JSON({
+                                'url': 'keyword_handler.php',
+                                    'method' : 'post',
+                                    'data' : {
+                                    'keyword_id' : value.fields.id,
+                                    'sound_id' : mySound.fields.id,
+                                    'action' : 'remove'
+                                },
+                                onSuccess : function(responseText,responseXML){
+                                    
+                                }
+                        
+                            }).send();
+                            $('keyword'+value.fields.id+"_"+mySound.fields.id).destroy();
+                        }.bind(this)
+                    }
+                }).inject(myKeyword);
+                myX.store('sound_id',mySound.id);
+            
+               myEd = new Element('img',{
+                    'id' : 'keyword_edit_img'+value.fields.id+"_"+mySound.fields.id,
+                    'styles' : {
+                        'float' : 'right',
+                        'cursor' : 'pointer',
+                        'margin-right' : '16px'
+                    },
+                    events:{
+                        'click' : function(e){
+                         //   console.log(e);
+                          //  console.log($())
+                            myInput = new Element('input',{
+                                type : 'text',
+                                id : 'keyword_edit_input'+value.fields.id+"_"+mySound.fields.id,
+                                value : value.fields.keyword,
+                                styles : {
+                                    color : '#333'
+                                },
+                                events: {
+                                 /*
+                                    'click' : function(){
+                                        $('keyword_edit_input'+value.fields.id+"_"+mySound.fields.id).set('value','');
+                                        $('keyword_edit_input'+value.fields.id+"_"+mySound.fields.id).setStyles({color:'#333'});
+                                   
+                                    },
+                                    */
+                                    'change' : function(){
+
+                                            myRequest = new Request.JSON({
+                                                    'url': 'keyword_handler.php',
+                                                    'method' : 'post',
+                                                    'data' : {
+                                                    'keyword_id' : value.fields.id,
+                                                    'sound_id' : mySound.fields.id,
+                                                    'keyword' : this.value,
+                                                    'action' : 'edit'
+                                                },
+                                       
+                                                onSuccess : function(responseText,responseXML){
+                                                    
+                                                  datagrid.refresh();
+                                                
+                                        
+                                                }
+                        
+                                            }).send();
+                                      //      console.log(this.id);
+                                       //     console.log(this.value); 
+                                    }
+                                }
+                            }).replaces($('keyword'+value.fields.id+"_"+mySound.fields.id));
+                         //   console.log(this.id);
+                        }
+                    },
+                    'src' : './images/12-em-pencil.png',
+                }).inject(myKeyword);
                 
             }); // end of keywords.each
-         var myClear = new Element('div',{
-            styles : {
-                'width' : '520px',
-                'border-top' : '1px solid #ccc',
-                'clear' : 'both'
-            }
-        }).inject(soundInfoWrapper);
-        var soundActionWrapper = new Element("h3",{
-            "class" : "soundInfoCol",
-            "styles" : { 
-                "width" : "auto",
-                "border" : "0px solid #ccc"
-            }
-        }).inject(soundInfoWrapper)
-        var waveInfoLink = new Element("a",{
-            "styles" : {
-                "width":"240px",
-    
+        add_one_container = new Element('div',{'width':'160px','float':'right'}).inject(keyword_wrapper);
+        addOne = new Element( 'input', {
+            'value' : 'add another',
+            'styles' : {
+                'font-size': '10px',
+                'width' : '130px',
+                'color' : '#999',
+                'margin' : '5px'           
             },
-            "events" : {
-                "click" : function(ev){
-                  //  allow page to jump to top on show wave info
-                  //  ev.stop();
-                    showWaveInfo(myWav,mySound,myMP3,myKeywords);
-                }
-            },
-            "text" : "Show Sound Data",
-            "href" : "#"
-        }).inject(soundActionWrapper,'bottom');
-        var waveInfoDL = new Element("a",{
-            "styles" : {
-                "width":"240px",
-                "margin-left" : "30px"        
-            },
-            "events" : {
-                        "click" : function(ev){
-                            ev.stop();
-                            var loc = "wave_info_download.php?sid=" + mySound.fields.id;
-                            loc += "&wid=" + myWav.fields.id;
-                            loc += "&mid=" + myMP3.fields.id;
-                            window.location = loc;
-                        }
+            'events' : {
+                'change' : function(event){
+                    sound_id = mySound.fields.id;
+                    addKeyword(sound_id,this.value);
                     
+                },
+       
+                'focus' : function(event){
+                    this.set('value','');
+                    this.set('styles',{'color':'#333'});
+                }
+            }       
+        }).inject(add_one_container);
+        plusSign = new Element('img',{
+            src : './images/12-em-plus.png',
+            styles : {
+                'cursor':'pointer'
             },
-            "text" : "Download Sound Data",
-            "href" : $empty
-        }).inject(soundActionWrapper,'bottom');
-    
+            events : {
+                'click' : function(event){ event.preventDefault() },
+                'mouseover' : function(){}
+                
+            }
+        }).inject(add_one_container);
+    } // end if keywords array
 
-   }
+    myClear = new Element('div',{
+        styles : {
+            'width' : '520px',
+            'border-top' : '1px solid #ccc',
+            'clear' : 'both'
+        }
+    }).inject(soundInfoWrapper);
+    // makes keywords sortable drag and drop
+    var mySortables = new Sortables($$('.kw_ul'), {
+            revert: { duration: 500, transition: 'elastic:out' }, 
+            onComplete : function(element){
+                    classname = element.get('class');
+                    if(classname.contains('master_tag')||classname.contains('erow')){
+                       classname = classname.replace(' master_tag','');
+                       classname = classname.replace(' erow','');
+                    }
+                    var els = $$("."+classname);
+                    var send_array = [];
+                    var nels = [];
+                    els.each(function(value,index){
+                        nels.push(value.id);
+                        var sound_id = value.id.split('_')[1];
+                        var keyword_id = value.id.split('_')[0].replace('keyword','');
+                        send_array.push([sound_id,keyword_id,index])
+        
+                    });
+                  //  console.log(nels);
+                if($defined($(nels[0]))){
+                element.removeClass('master_tag');
+                $(nels[0]).addClass('master_tag');
+                    myJSON = new Request.JSON({
+                        'url' : 'keyword_handler.php',
+                            'method' : 'post',
+                            'data' : {
+                                'action' : 'reorder_keywords',
+                                'send_array' : send_array,                        
+                            },
+                        
+                    }).send();
+                }
+            }
+        });
+   
+
+    }
  //   obj.parent.adopt(myDiv);
     
 } // end accordionFunction
-
-function showWaveInfo(wavOb,soundOb,mp3Ob,keywordAr){
-    var myMask = new Mask();
-    myMask.show();
-    i = 0;
-    var pos = $('wrapper_2').getPosition();
-    var size = $('wrapper_2').getSize();
-    WavInfo = new Element('div',{
-        "id" : "wav_info",
-        "class" : "fadeout",
-        "styles" : {
-            "z-index" : "10000",
-            "width" : size.x + "px",
-            "height" : size.y + "px",
-            "background-color" : "#fff",
-            "position" : "absolute",
-            "left" : pos.x + "px",
-            "top" : pos.y + "px",
-            "display" : "none"
-        }
-    }).inject($('wrapper_2')).reveal();
-    WavInner = new Element('div',{
-        "styles" : {
-            "text-align" : "left",
-            "background-color" : "#eee",
-            "width":"250px",
-            "margin-left" : "270px",
-            "padding" : "5px"
-        }       
-    }).inject(WavInfo);
-
-    SoundInner = new Element('div',{
-
-         "styles" : {
-            "text-align" : "left",
-            "background-color" : "#eee",
-            "width":"250px",
-            "float":"left",
-            "padding" : "5px"
-        }
-    }).inject(WavInfo,"top");
-    Column3Inner = new Element('div',{
-        "styles" : {
-            "text-align" : "left",
-            "background-color" : "#eee",
-            "width":"250px",
-            "float" : "right",
-            "padding" : "5px"
-        }
-    }).inject(WavInfo,"top");
-    incrementer = 0
-    $each(soundOb.fields,function(val,key){
-
-            if( val != null && val.length > 0 ){
-                var attributeDiv = new Element('div',{
-                    "html" : key + " : " + val
-                }).inject(SoundInner);
-                if( key == "channels"){
-                    var newDiv = new Element('div',{
-                        "id" : key,
-                        "styles" : {
-                            "border" : "1px solid #ccc",
-                            "width" : "auto",                        
-                        }
-                    }).inject(SoundInner)
-                }
-            } else {
-                var attributeDiv = new Element('div',{
-                    'html' : key + " : N/A"
-                }).inject(SoundInner); 
-           //     var txt = WavInfo.get('html'); 
-           //     WavInner.set('html',txt + key + " : N/A" + "<br />");
-            }
-                 
-    });
-    $each(wavOb.fields,function(val,key){
-
-            if( val != null && val.length > 0 ){
-                var attributeDiv = new Element('div',{
-                    "html" : key + " : " + val
-                }).inject(WavInner);
-                if( key == "channels"){
-                    var newDiv = new Element('div',{
-                        "id" : key,
-                        "styles" : {
-                            "border" : "1px solid #ccc",
-                            "width" : "250px",
-                            "overflow-x" : "auto"
-                                                    
-                        }
-                    }).inject(WavInner)
-                }
-            } else {
-                var attributeDiv = new Element('div',{
-                    'html' : key + " : N/A"
-                }).inject(WavInner); 
-           //     var txt = WavInfo.get('html'); 
-           //     WavInner.set('html',txt + key + " : N/A" + "<br />");
-            }
-                 
-    });
-    var newDiv = new Element('div',{
-        "id" : "autocorrelation_peaks",
-        "styles" : {
-            "border" : "1px solid #ccc",
-            "width" : "auto",                        
-        }
-    }).inject(WavInner);
-    $$('.fadeout').addEvent('click', function(){
-        this.nix();
-        myMask.hide();
-     //   $('wav_info').destroy();
-    }),this;
-    myWavJSON = new Request.JSON({
-        "url" : "extended_wav_info.php",
-        "method" : "post",
-        "data" : {
-            "wav_id" : wavOb.fields.id,
-            "sound_id" : soundOb.fields.id
-        },
-        "onSuccess" : function(xml,txt){
-        //    console.log($('channels'));
-            
-         //   $('channels').set('html',txt);
-            incrementer = 0;
-            var description_row = ["description :"];
-            var level_row = ["level :"];
-            var peak_row = ["peak"];
-            var dc_offset_row = ["dc_offset :"];
-
-            if(xml.channels.length){
-                $each(xml.channels,function(val,key){
-                /*
-                    var channellink = "<a href='editor.php?classname=Channel&id=";
-                    channellink += val.id;
-                    channellink += "'>";
-                    channellink += val.description;
-                    channellink += "</a>";
-                    description_row.push(channellink);
-                    level_row.push(val.level);
-                    peak_row.push(val.peak);
-                    dc_offset_row.push(val.dc_offset);
-                */
-                    
-                    description_row.push(val.description);
-                    level_row.push(val.level);
-                    peak_row.push(val.peak);
-                    dc_offset_row.push(val.dc_offset);
-                });
-
-                var channelTable = new HtmlTable({
-                    "properties" : {
-                    "cellspacing" : "0px",
-                    "cellpadding" : "2px",
-                    "border" : "0",
-                    "width" : xml.channels.length * 125
-                    },
-                    "rows" : [description_row,level_row,peak_row,dc_offset_row]           
-                }).inject($('channels'));
-           }
-           if(xml.autocorrelation_peaks.length){
-                var acpdesc = new Element('div',{
-                    "html" : "autocorrelation_peaks :"
-                }).inject($('autocorrelation_peaks'));
-                var rows = [];
-                $each(xml.autocorrelation_peaks,function(val,key){
-                  /*
-                    var peaklink = "<a href='editor.php?classname=Autocorrelation_peak&id=";
-                    peaklink += val.id;
-                    peaklink += "'>";
-                    peaklink += val.frequency;
-                    peaklink += "</a>";
-                    var frequency_row = ["frequency :"];
-                  //  frequency_row.push(val.frequency);
-                    frequency_row.push(peaklink);
-                  */
-                    var frequency_row = ["frequency :"]; 
-                    frequency_row.push(val.frequency);
-                    rows.push(frequency_row);                   
-                });
-                var acpTable = new HtmlTable({
-                    "properties" : {
-                    "cellspacing" : "2px",
-                    "cellpadding" : "2px",
-                    "border" : "0"
-                    },
-                    "rows" : rows     
-                }).inject($('autocorrelation_peaks'));
-           }
-           if(xml.citations.length){
-               CiteH = new Element('h3',{
-                    "html":"Citations"
-                }).inject(Column3Inner);
-                var rows = [];
-                $each(xml.citations,function(val,key){
-                    var citation_row = [val.fields.citation];
-                    
-                 //     console.log(val);
-                  rows.push(citation_row);                   
-                });
-                var citationTable = new HtmlTable({
-                    "properties" : {
-                    "cellspacing" : "2px",
-                    "cellpadding" : "2px",
-                    "border" : "0"
-                    },
-                    "rows" : rows     
-                }).inject(Column3Inner);
-           }
-           if(keywordAr.length){
-               KeyH = new Element('h3',{
-                    "html":"Keywords"
-                }).inject(Column3Inner);
-                var rows = [];
-                $each(keywordAr,function(val,key){
-                    var keyword_row = [val.fields.keyword];
-                    
-                 //     console.log(val);
-                  rows.push(keyword_row);                   
-                });
-                var keywordTable = new HtmlTable({
-                    "properties" : {
-                    "cellspacing" : "2px",
-                    "cellpadding" : "2px",
-                    "border" : "0"
-                    },
-                    "rows" : rows     
-                }).inject(Column3Inner);
-           }
-        }
-    }).send();
-    var wav_id = wavOb.fields.id;
-    var mp3_id = mp3Ob.fields.id;
-    var sound_id = soundOb.fields.id;
-    WavH = new Element('h3',{
-        "html":"Wav File"  
-    }).inject(WavInner,"top");
-    SoundH = new Element('h3',{
-        "html":"Sound File"
-    }).inject(SoundInner,"top");
-    Mp3H = new Element('h3',{
-        "html":"MP3 File"
-    }).inject(Column3Inner,"top");
-    $each(mp3Ob.fields,function(val,key){
-
-            if( val != null && val.length > 0 ){
-                var attributeDiv = new Element('div',{
-                    "html" : key + " : " + val
-                }).inject(Column3Inner);
-               
-            } else {
-                var attributeDiv = new Element('div',{
-                    'html' : key + " : N/A"
-                }).inject(Column3Inner); 
-           //     var txt = WavInfo.get('html'); 
-           //     WavInner.set('html',txt + key + " : N/A" + "<br />");
-            }
-                 
-    });
-
-};
 
 function addKeyword(sound_id,keyword){
 
@@ -793,7 +566,7 @@ function deleteSoundFromSet(sound_id,ss_id){
     
 	function onGridSelect(evt)
 	{
-        
+
         Playlist.stopSounds();
     
 	 	//	console.log('click ' +evt.target+' '+evt.indices+' '+evt.row);
@@ -803,7 +576,7 @@ function deleteSoundFromSet(sound_id,ss_id){
 	
 	function onGridDblClick(evt)
 	{
-    	// console.log('dblclick '+evt.target+' '+evt.row);
+		// console.log('dblclick '+evt.target+' '+evt.row);
 	}
 	
 	function filterGrid()
@@ -837,11 +610,11 @@ function deleteSoundFromSet(sound_id,ss_id){
 	
 	function refresh()
 	{
-        datagrid.refresh();
+    
+		datagrid.refresh();
 	}
 
 	 function searchGrid() {
-        datagrid.options.page = 1;
          datagrid.search( $('searchterm').value );
      }
   
@@ -849,20 +622,15 @@ function deleteSoundFromSet(sound_id,ss_id){
          datagrid.clearSearch();
          $('searchterm').set('value', '');
      }
-    // example of how to stop the row click accordian function
-     function mp3Click(ob){
-        $(ob).addEvent('click',function(ev){
-            ev.stop();
-          //  console.log(ob.id);
-        });
-     }
+    
+
     var cmu = [            
 
             {
                header: "Description",
                dataIndex: 'description',
                dataType:'string',
-               width:175
+               width:150
             } ,
             {
                header: "Length",
@@ -874,13 +642,13 @@ function deleteSoundFromSet(sound_id,ss_id){
                 header: "Has WAV",
                 dataIndex: 'has_wav',
                 dataType: 'string',
-                width:70
+                width:75
             },
             {
                 header: "Has MP3",
                 dataIndex: 'has_mp3',
                 dataType: 'string',
-                width:70
+                width:75
             },
             {
                 header: "Kbit/Sec",
@@ -892,17 +660,8 @@ function deleteSoundFromSet(sound_id,ss_id){
                header: "Samples/Sec",
                dataIndex: 'wave_framerate',
                dataType:'number',
-               width:90
-        
-            },
-       
-            {
-               header: "U",
-               dataIndex: 'user_id',
-               dataType:'string',
-               width:20
+               width:75
             }
-         
              ];	
     
 window.addEvent("domready", function(){
@@ -913,15 +672,22 @@ window.addEvent("domready", function(){
             $('clearsearchbt').addEvent("click", clearSearchGrid);         
 	        datagrid = new omniGrid('mygrid', {
 	        columnModel: cmu,
-	        buttons : [], // no buttons
-	        url:"sound_data.php",
+	        buttons : [
+	      
+              {name: 'Add To Selection Set', bclass: 'add_to_set', onclick : gridButtonClick},
+	      //    {name: 'Delete', bclass: 'delete', onclick : gridButtonClick},
+	        //  {separator: true},
+	        //  {name: 'Duplicate', bclass: 'duplicate', onclick : gridButtonClick}
+                {separator : true}
+	        ],
+	        url:"user_sounds_data.php",
 	        perPageOptions: [6,12,24],
 	        perPage:6,
 	        page:1,
 	        pagination:true,
 	        serverSort:true,
 	        showHeader: true,
-	        alternaterows: false,
+	        alternaterows: true,
 	        showHeader:true,
 	        sortHeader:true,
 	        resizeColumns:false,
@@ -938,6 +704,51 @@ window.addEvent("domready", function(){
 	        height: 320,
             clickedrow:false
 	    });
-        
+        var myEl = $('selection_set_select');
+        myEl.addEvent('change',function(event){
+            myJSON = new Request.JSON({
+                url: 'selection_set_handler.php',
+                method : 'post',
+                data : {
+                  selection_set_id : myEl.getSelected()[0].value
+                },
+                onSuccess : function(responseText,responseXML){
+                        $('selected_set').empty();
+                        responseText.sounds.each( function (value,index){
+                        myX = new Element('img',{
+                            src : './images/12-em-cross.png',
+                            alt : 'Remove from set',
+                            styles : {
+                                'float': 'right',
+                                
+                                'cursor' : 'pointer'                        
+                            },
+                            events : {
+                                'click' : function(event){
+                                    confirm('Remove?');
+                                    sound_id = value.fields.id;
+                                    ss_id =  $('selection_set_select').getSelected().get('value')[0];
+                                    deleteSoundFromSet(sound_id,ss_id);                                    
+                                }                      
+                            }
+                        });
+                       innerEl = new Element('div',{
+                            styles: {
+                                'font-size' : '10px',
+                                'font-weight' : 'bold',
+                                'border-bottom' : '1px solid #aaa',
+                                'width' : '175px'
+                        },
+                        html: value.fields.description
+                    });
+                    myX.inject(innerEl);
+                    innerEl.inject($('selected_set'));
+                      
+                      
+                    });         
+                }
+            });
+            myJSON.send();
+        });
         
     });

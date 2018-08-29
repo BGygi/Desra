@@ -1,12 +1,11 @@
 var i = 0;
+// accordianFunction is called by clicking on a row in the omnigrid
+// 
 function accordionFunction(obj){
     i++;
     var mySound = this.data[obj.row].sound;
-    // mp3s and wavs are actually arrays but we
-    // only use the first one
     var myMP3 = this.data[obj.row].sound.mp3_files[0];
     var myWav = this.data[obj.row].sound.wav_files[0];
-    
     var myKeywords = this.data[obj.row].sound.keywords;
     if($type(myWav) != "object"){
         myWav = {
@@ -164,7 +163,8 @@ function accordionFunction(obj){
                 
                 }
         }).inject(mp3_container);
-            keyword_wrapper = new Element('div',{
+                
+        keyword_wrapper = new Element('div',{
                 'class' : 'soundInfoCol',               
                 styles : {
                     'float' : 'left'
@@ -297,10 +297,125 @@ function accordionFunction(obj){
 
                 }
                 
-               
+                myX = new Element('img',{
+                    'styles' : {
+                        'float' : 'right',
+                        'cursor' : 'pointer'
+                    },
+                    'src' : './images/12-em-cross.png',
+                    events : {
+                        'click' : function(event){
+                            myRequest = new Request.JSON({
+                                'url': 'keyword_handler.php',
+                                    'method' : 'post',
+                                    'data' : {
+                                    'keyword_id' : value.fields.id,
+                                    'sound_id' : mySound.fields.id,
+                                    'action' : 'remove'
+                                },
+                                onSuccess : function(responseText,responseXML){
+                                    
+                                }
+                        
+                            }).send();
+                            $('keyword'+value.fields.id+"_"+mySound.fields.id).destroy();
+                        }.bind(this)
+                    }
+                }).inject(myKeyword);
+                myX.store('sound_id',mySound.id);
+            
+               myEd = new Element('img',{
+                    'id' : 'keyword_edit_img'+value.fields.id+"_"+mySound.fields.id,
+                    'styles' : {
+                        'float' : 'right',
+                        'cursor' : 'pointer',
+                        'margin-right' : '16px'
+                    },
+                    events:{
+                        'click' : function(e){
+                         //   console.log(e);
+                          //  console.log($())
+                            myInput = new Element('input',{
+                                type : 'text',
+                                id : 'keyword_edit_input'+value.fields.id+"_"+mySound.fields.id,
+                                value : value.fields.keyword,
+                                styles : {
+                                    color : '#333'
+                                },
+                                events: {
+                                 /*
+                                    'click' : function(){
+                                        $('keyword_edit_input'+value.fields.id+"_"+mySound.fields.id).set('value','');
+                                        $('keyword_edit_input'+value.fields.id+"_"+mySound.fields.id).setStyles({color:'#333'});
+                                   
+                                    },
+                                    */
+                                    'change' : function(){
+
+                                            myRequest = new Request.JSON({
+                                                    'url': 'keyword_handler.php',
+                                                    'method' : 'post',
+                                                    'data' : {
+                                                    'keyword_id' : value.fields.id,
+                                                    'sound_id' : mySound.fields.id,
+                                                    'keyword' : this.value,
+                                                    'action' : 'edit'
+                                                },
+                                       
+                                                onSuccess : function(responseText,responseXML){
+                                                    
+                                                  datagrid.refresh();
+                                                
+                                        
+                                                }
+                        
+                                            }).send();
+                                      //      console.log(this.id);
+                                       //     console.log(this.value); 
+                                    }
+                                }
+                            }).replaces($('keyword'+value.fields.id+"_"+mySound.fields.id));
+                         //   console.log(this.id);
+                        }
+                    },
+                    'src' : './images/12-em-pencil.png',
+                }).inject(myKeyword);
                 
             }); // end of keywords.each
-         var myClear = new Element('div',{
+        add_one_container = new Element('div',{'width':'160px','float':'right'}).inject(keyword_wrapper);
+        addOne = new Element( 'input', {
+            'value' : 'add another',
+            'styles' : {
+                'font-size': '10px',
+                'width' : '130px',
+                'color' : '#999',
+                'margin' : '5px'           
+            },
+            'events' : {
+                'change' : function(event){
+                    sound_id = mySound.fields.id;
+                    addKeyword(sound_id,this.value);
+                    
+                },
+       
+                'focus' : function(event){
+                    this.set('value','');
+                    this.set('styles',{'color':'#333'});
+                }
+            }       
+        }).inject(add_one_container);
+        plusSign = new Element('img',{
+            src : './images/12-em-plus.png',
+            styles : {
+                'cursor':'pointer'
+            },
+            events : {
+                'click' : function(event){ event.preventDefault() },
+                'mouseover' : function(){}
+                
+            }
+        }).inject(add_one_container);
+        var myClear = new Element('div',{
             styles : {
                 'width' : '520px',
                 'border-top' : '1px solid #ccc',
@@ -347,8 +462,86 @@ function accordionFunction(obj){
             "text" : "Download Sound Data",
             "href" : $empty
         }).inject(soundActionWrapper,'bottom');
-    
+        var delete_data = $H();
+        delete_data.sound_id = mySound.fields.id;
+        delete_data.wav_id = myWav.fields.id;
+        delete_data.wav = myWav.fields;
+        delete_data.sound = mySound.fields;
+        delete_data.mp3 = myMP3.fields;
+      
+        myDeleteButton = new Element('input',{
+            "type":"button",
+            "styles":{
+                "width":"200px",
+                "font-size":"8px",
+                "background-color":"#ff0000",
+                "color":"#ffffff",
+                "margin-left":"20px"
+             },
+             "value" : "Delete Sound",
+             "events" : {
+                "click" : function(){
+                  if( confirm("This Will Delete All Associated Files and Database Entries")){
+                        myDeletion = new Request.JSON({
+                            "method" : "post",
+                            "url" : "extended_wav_info.php",
+                            "data" : delete_data,
+                            "onSuccess" :  function(xml){
+                                    delete_data.channels = xml.channels;
+                                    delete_data.autocorrelation_peaks = xml.autocorrelation_peaks;
+                                    delete_data.citations = xml.citations;
+                                    myD = new Request.JSON({
+                                        "method":"post",
+                                        "url": "handle_sound_deletion.php",
+                                        "data" : delete_data,
+                                        "onSuccess" : function(xml){
+                                            datagrid.refresh();
+                                            
+                                        }
+                                    }).send();
+                             }
+                        }).send();
+                  
+                  }
+                }
+              }
+        }).inject(soundActionWrapper);
 
+        // makes keywords sortable drag and drop
+        var mySortables = new Sortables($$('.kw_ul'), {
+            revert: { duration: 500, transition: 'elastic:out' }, 
+            onComplete : function(element){
+                    classname = element.get('class');
+                    if(classname.contains('master_tag')||classname.contains('erow')){
+                       classname = classname.replace(' master_tag','');
+                       classname = classname.replace(' erow','');
+                    }
+                    var els = $$("."+classname);
+                    var send_array = [];
+                    var nels = [];
+                    els.each(function(value,index){
+                        nels.push(value.id);
+                        var sound_id = value.id.split('_')[1];
+                        var keyword_id = value.id.split('_')[0].replace('keyword','');
+                        send_array.push([sound_id,keyword_id,index])
+        
+                    });
+                  //  console.log(nels);
+                if($defined($(nels[0]))){
+                    element.removeClass('master_tag');
+                    $(nels[0]).addClass('master_tag');
+                    myJSON = new Request.JSON({
+                        'url' : 'keyword_handler.php',
+                            'method' : 'post',
+                            'data' : {
+                                'action' : 'reorder_keywords',
+                                'send_array' : send_array,                        
+                            },
+                        
+                    }).send();
+                }
+            }
+        }); // end of sortables
    }
  //   obj.parent.adopt(myDiv);
     
@@ -485,19 +678,12 @@ function showWaveInfo(wavOb,soundOb,mp3Ob,keywordAr){
 
             if(xml.channels.length){
                 $each(xml.channels,function(val,key){
-                /*
                     var channellink = "<a href='editor.php?classname=Channel&id=";
                     channellink += val.id;
                     channellink += "'>";
                     channellink += val.description;
                     channellink += "</a>";
                     description_row.push(channellink);
-                    level_row.push(val.level);
-                    peak_row.push(val.peak);
-                    dc_offset_row.push(val.dc_offset);
-                */
-                    
-                    description_row.push(val.description);
                     level_row.push(val.level);
                     peak_row.push(val.peak);
                     dc_offset_row.push(val.dc_offset);
@@ -519,7 +705,6 @@ function showWaveInfo(wavOb,soundOb,mp3Ob,keywordAr){
                 }).inject($('autocorrelation_peaks'));
                 var rows = [];
                 $each(xml.autocorrelation_peaks,function(val,key){
-                  /*
                     var peaklink = "<a href='editor.php?classname=Autocorrelation_peak&id=";
                     peaklink += val.id;
                     peaklink += "'>";
@@ -528,9 +713,6 @@ function showWaveInfo(wavOb,soundOb,mp3Ob,keywordAr){
                     var frequency_row = ["frequency :"];
                   //  frequency_row.push(val.frequency);
                     frequency_row.push(peaklink);
-                  */
-                    var frequency_row = ["frequency :"]; 
-                    frequency_row.push(val.frequency);
                     rows.push(frequency_row);                   
                 });
                 var acpTable = new HtmlTable({
@@ -590,12 +772,21 @@ function showWaveInfo(wavOb,soundOb,mp3Ob,keywordAr){
     WavH = new Element('h3',{
         "html":"Wav File"  
     }).inject(WavInner,"top");
+    myHeaderLink = new Element("a",{
+        href : "./editor.php?classname=Wav_file&id="+wav_id
+    }).wraps(WavH); 
     SoundH = new Element('h3',{
         "html":"Sound File"
     }).inject(SoundInner,"top");
+    myHeaderLink = new Element("a",{
+        href : "./editor.php?classname=Sound&id="+sound_id
+    }).wraps(SoundH); 
     Mp3H = new Element('h3',{
         "html":"MP3 File"
     }).inject(Column3Inner,"top");
+    myHeaderLink = new Element("a",{
+        href : "./editor.php?classname=MP3_file&id="+mp3_id
+    }).wraps(Mp3H); 
     $each(mp3Ob.fields,function(val,key){
 
             if( val != null && val.length > 0 ){
@@ -913,7 +1104,14 @@ window.addEvent("domready", function(){
             $('clearsearchbt').addEvent("click", clearSearchGrid);         
 	        datagrid = new omniGrid('mygrid', {
 	        columnModel: cmu,
-	        buttons : [], // no buttons
+	        buttons : [
+	      
+              {name: 'Add To Selection Set', bclass: 'add_to_set', onclick : gridButtonClick},
+	      //    {name: 'Delete', bclass: 'delete', onclick : gridButtonClick},
+	        //  {separator: true},
+	        //  {name: 'Duplicate', bclass: 'duplicate', onclick : gridButtonClick}
+                {separator : true}
+	        ],
 	        url:"sound_data.php",
 	        perPageOptions: [6,12,24],
 	        perPage:6,
@@ -938,6 +1136,51 @@ window.addEvent("domready", function(){
 	        height: 320,
             clickedrow:false
 	    });
-        
+        var myEl = $('selection_set_select');
+        myEl.addEvent('change',function(event){
+            myJSON = new Request.JSON({
+                url: 'selection_set_handler.php',
+                method : 'post',
+                data : {
+                  selection_set_id : myEl.getSelected()[0].value
+                },
+                onSuccess : function(responseText,responseXML){
+                        $('selected_set').empty();
+                        responseText.sounds.each( function (value,index){
+                        myX = new Element('img',{
+                            src : './images/12-em-cross.png',
+                            alt : 'Remove from set',
+                            styles : {
+                                'float': 'right',
+                                
+                                'cursor' : 'pointer'                        
+                            },
+                            events : {
+                                'click' : function(event){
+                                    confirm('Remove?');
+                                    sound_id = value.fields.id;
+                                    ss_id =  $('selection_set_select').getSelected().get('value')[0];
+                                    deleteSoundFromSet(sound_id,ss_id);                                    
+                                }                      
+                            }
+                        });
+                       innerEl = new Element('div',{
+                            styles: {
+                                'font-size' : '10px',
+                                'font-weight' : 'bold',
+                                'border-bottom' : '1px solid #aaa',
+                                'width' : '175px'
+                        },
+                        html: value.fields.description
+                    });
+                    myX.inject(innerEl);
+                    innerEl.inject($('selected_set'));
+                      
+                      
+                    });         
+                }
+            });
+            myJSON.send();
+        });        
         
     });
